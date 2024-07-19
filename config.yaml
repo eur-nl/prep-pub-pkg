@@ -11,7 +11,7 @@
 carpentry: 'incubator'
 
 # Overall title for pages.
-title: 'Lesson Title'
+title: 'Prepare your publication package'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
 created: '2024-07-12'
@@ -33,7 +33,7 @@ source: 'https://github.com/carpentries/prep-pub-pkg'
 branch: 'main'
 
 # Who to contact if there are any issues
-contact: 'team@carpentries.org'
+contact: 'e.klapwijk@essb.eur.nl'
 
 # Navigation ------------------------------------------------
 #
@@ -60,6 +60,8 @@ contact: 'team@carpentries.org'
 # Order of episodes in your lesson
 episodes: 
 - introduction.Rmd
+- prep-pkg.Rmd
+- archive-share-pkg.Rmd
 
 # Information for Learners
 learners: 

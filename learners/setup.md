@@ -1,54 +1,24 @@
 ---
-title: Setup
+title: Preparation and setup
 ---
-
-FIXME: Setup instructions live in this document. Please specify the tools and
-the data sets the Learner needs to have installed.
 
 ## Data Sets
 
-<!--
-FIXME: place any data you want learners to use in `episodes/data` and then use
-       a relative link ( [data zip file](data/lesson-data.zip) ) to provide a
-       link to it, replacing the example.com link.
--->
-Download the [data zip file](https://example.com/FIXME) and unzip it to your Desktop
+::: discussion
+### Instructions
+
+1.  Download the `eur-publication-package.zip` file from the [EUR publication package example repository on Zenodo](https://doi.org/10.5281/zenodo.7956600){target="_blank"} and unzip it to your Desktop or Home directory. This is an example publication package that we will use throughout the workshop
+2.  Create a new directory for a research project that you need to create a publication package for. This can be a recent publication or manuscript that you have send out to a journal. If possible, use a project for which you have already collected, processed and analyzed the data and drafted a manuscript.
+    i.  Create a similar folder structure for your own project as in the example publication package downloaded at step 1: create folders called `data`, `data_output`, `documentation`, `materials`, and `scripts`.
+    ii. Try to copy as much elements of the publication package from your own project into the folders. For example, raw data in the `data` folder, processed data in the `data_output` folder, data management plan and ethics documentation in the `documentation` folder, blank questionnaires and other stimulus materials as well as codebooks in the `materials` folders, and computer code or syntax in the `scripts` folder. This will get you started with your own publication package. Don't worry if it is not yet complete or tidy. You will work on improving your package during and after the workshop.
+    
+:::
 
 ## Software Setup
 
-::::::::::::::::::::::::::::::::::::::: discussion
-
+::: discussion
 ### Details
 
-Setup for different systems can be presented in dropdown menus via a `solution`
-tag. They will join to this discussion block, so you can give a general overview
-of the software used in this lesson here and fill out the individual operating
-systems (and potentially add more, e.g. online setup) in the solutions blocks.
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::
-
-:::::::::::::::: solution
-
-### Windows
-
-Use PuTTY
-
-:::::::::::::::::::::::::
-
-:::::::::::::::: solution
-
-### MacOS
-
-Use Terminal.app
-
-:::::::::::::::::::::::::
-
-
-:::::::::::::::: solution
-
-### Linux
-
-Use Terminal
-
-:::::::::::::::::::::::::
+Currently this course can be followed using your browser, no specific software is needed. For creating your own publication package, it will be helpful to have access to the software that you used in the project for which you will create your publication package.
+:::
 
