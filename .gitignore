@@ -54,3 +54,4 @@ renv/sandbox # OPTIONAL
 
 # Mac specific files
 .DS_Store
+renv/sandbox
