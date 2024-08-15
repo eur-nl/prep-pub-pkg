@@ -10,7 +10,13 @@
     <loc>https://carpentries.github.io/prep-pub-pkg/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://carpentries.github.io/prep-pub-pkg/aio.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries.github.io/prep-pub-pkg/archive-share-pkg.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/prep-pub-pkg/images.html</loc>
   </url>
   <url>
     <loc>https://carpentries.github.io/prep-pub-pkg/index.html</loc>
@@ -25,13 +31,25 @@
     <loc>https://carpentries.github.io/prep-pub-pkg/instructor/LICENSE.html</loc>
   </url>
   <url>
+    <loc>https://carpentries.github.io/prep-pub-pkg/instructor/aio.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries.github.io/prep-pub-pkg/instructor/archive-share-pkg.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/prep-pub-pkg/instructor/images.html</loc>
   </url>
   <url>
     <loc>https://carpentries.github.io/prep-pub-pkg/instructor/index.html</loc>
   </url>
   <url>
+    <loc>https://carpentries.github.io/prep-pub-pkg/instructor/instructor-notes.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries.github.io/prep-pub-pkg/instructor/introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/prep-pub-pkg/instructor/key-points.html</loc>
   </url>
   <url>
     <loc>https://carpentries.github.io/prep-pub-pkg/instructor/prep-pkg.html</loc>
@@ -43,7 +61,13 @@
     <loc>https://carpentries.github.io/prep-pub-pkg/instructor/reference.html</loc>
   </url>
   <url>
+    <loc>https://carpentries.github.io/prep-pub-pkg/instructor-notes.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries.github.io/prep-pub-pkg/introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/prep-pub-pkg/key-points.html</loc>
   </url>
   <url>
     <loc>https://carpentries.github.io/prep-pub-pkg/prep-pkg.html</loc>
