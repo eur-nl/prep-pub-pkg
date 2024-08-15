@@ -255,7 +255,7 @@
 <div class="accordion accordion-flush" id="accordionFlush3">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading3">
-        <a href="prep-pkg.html">2. Prepare your package</a>
+        <a href="prep-pkg-docs.html">2. Prepare your package - I. Documentation</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -267,7 +267,19 @@
 <div class="accordion accordion-flush" id="accordionFlush4">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading4">
-        <a href="archive-share-pkg.html">3. Archive and share your package</a>
+        <a href="prep-pkg-data.html">3. Prepare your package - II. Materials, data, code</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
+<div class="accordion accordion-flush" id="accordionFlush5">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading5">
+        <a href="archive-share-pkg.html">4. Archive and share your package</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -605,11 +617,11 @@ materials and documentation</li>
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
-</section></section><section id="aio-prep-pkg"><p>Content from <a href="prep-pkg.html">Prepare your package</a></p>
+</section></section><section id="aio-prep-pkg-docs"><p>Content from <a href="prep-pkg-docs.html">Prepare your package - I. Documentation</a></p>
 <hr>
 <p>Last updated on 2024-08-15 |
 
-        <a href="https://github.com/carpentries/prep-pub-pkg/edit/main/episodes/prep-pkg.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+        <a href="https://github.com/carpentries/prep-pub-pkg/edit/main/episodes/prep-pkg-docs.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
@@ -621,10 +633,8 @@ any links that you are not going to use.
 <div class="inner">
 <h3 class="card-title">Questions</h3>
 <ul>
-<li>What is needed to prepare a publication package for my research
+<li>Which documents are needed in a publication package for my research
 project?</li>
-<li>What are best practices for organizing data and code in a
-publication package?</li>
 <li>How do I document my package in such a way that is understandable
 for others?</li>
 </ul>
@@ -636,32 +646,65 @@ for others?</li>
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>Produce a publication package for your own research project</li>
+<li>Assign all relevant research documentation to the publication
+package of your own research project</li>
+<li>Apply best practices for file names and file formats in your
+publication package</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
 </div>
-<section><h2 class="section-heading" id="data-management-plan">Data management plan<a class="anchor" aria-label="anchor" href="#data-management-plan"></a>
+<p>Instead of chronologically adding the components according to their
+numbering in the <a href="introduction.html##the-contents-of-a-publication-package">list of
+publication package components</a>, we will first gather all
+documentation that is needed for your package in this part of the
+workshop. Hopefully, most of these documents are already available
+somewhere on your system (except probably for the readme file). In that
+case, you can quickly start building your package by gathering those
+files, perhaps focusing mostly on improving file names and file
+formats.</p>
+<section><h2 class="section-heading" id="project-folder">Project folder<a class="anchor" aria-label="anchor" href="#project-folder"></a>
+<a class="anchor" aria-label="anchor" href="#project-folder"></a>
+</h2>
+<hr class="half-width">
+<p>First, we need a place to save all the components of the publication
+package in one place.</p>
+<div id="steps-to-take" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div id="steps-to-take" class="callout-inner">
+<h3 class="callout-title">Steps to take<a class="anchor" aria-label="anchor" href="#steps-to-take"></a>
+</h3>
+<div class="callout-content">
+<ul>
+<li>Create a folder with a clear name for the research project (use the
+<a href="https://doi.org/10.5281/zenodo.7551576" target="_blank" class="external-link">three
+principles for file naming described in this presentation</a>)</li>
+<li>Optionally, you can create a small folder structure with sub folders
+if you prefer (for exampl, such as used in the <a href="https://doi.org/10.5281/zenodo.7956600" target="_blank" class="external-link">EUR
+publication package example</a>)</li>
+</ul>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="data-management-plan">Data management plan<a class="anchor" aria-label="anchor" href="#data-management-plan"></a>
 <a class="anchor" aria-label="anchor" href="#data-management-plan"></a>
 </h2>
 <hr class="half-width">
-<figure><img src="fig/07_data-mgmt-plan.png" alt="Data management plan. Provide a copy of the most recent version of your data management plan" width="300" class="figure mx-auto d-block"></figure><p>We will start with number 7 in our <a href="introduction.html##the-contents-of-a-publication-package">list of
-publication package components</a>.</p>
-<div id="accordionSpoiler1" class="accordion spoiler-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button spoiler-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSpoiler1" aria-expanded="false" aria-controls="collapseSpoiler1">
-  <h3 class="accordion-header" id="headingSpoiler1">
-  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="eye"></i></div>
-  Expand for details about the Data management plan
-  </h3>
-</button>
-<div id="collapseSpoiler1" class="accordion-collapse collapse" aria-labelledby="headingSpoiler1" data-bs-parent="#accordionSpoiler1">
-<div class="accordion-body">
-<div class="section level4">
-<h4 id="steps-to-take">Steps to take<a class="anchor" aria-label="anchor" href="#steps-to-take"></a>
-</h4>
+<figure><img src="fig/07_data-mgmt-plan.png" alt="Data management plan. Provide a copy of the most recent version of your data management plan" width="300" class="figure mx-auto d-block"></figure><p>The first component that we will add to the package is number 7 in
+our <a href="introduction.html##the-contents-of-a-publication-package">list of
+publication package components</a>: the data management plan.</p>
+<div id="steps-to-take-1" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div id="steps-to-take-1" class="callout-inner">
+<h3 class="callout-title">Steps to take<a class="anchor" aria-label="anchor" href="#steps-to-take-1"></a>
+</h3>
+<div class="callout-content">
 <ul>
 <li>You should simply provide a copy of the most recent version of your
 data management plan.</li>
@@ -676,7 +719,6 @@ it in the <code>documentation</code> folder.</li>
 management plan: is it still up to date? Do you need to take more steps
 to put it into practice?</li>
 </ul>
-</div>
 <div class="section level4">
 <h4 id="example-file">Example file<a class="anchor" aria-label="anchor" href="#example-file"></a>
 </h4>
@@ -687,26 +729,20 @@ publication package example repository on Zenodo</a></p>
 </div>
 </div>
 </div>
-</div>
 </section><section><h2 class="section-heading" id="manuscript-or-publication">Manuscript or publication<a class="anchor" aria-label="anchor" href="#manuscript-or-publication"></a>
 <a class="anchor" aria-label="anchor" href="#manuscript-or-publication"></a>
 </h2>
 <hr class="half-width">
 <figure><img src="fig/01_manuscript.png" alt="Must include a brief description of the problem definition, research design, data collection (sampling, selection and representativeness of informants) and methods used" width="300" class="figure mx-auto d-block"></figure><p>Let’s now continue chronologically with number 1 in our <a href="introduction.html##the-contents-of-a-publication-package">list of
 publication package components</a>.</p>
-<div id="accordionSpoiler2" class="accordion spoiler-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button spoiler-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSpoiler2" aria-expanded="false" aria-controls="collapseSpoiler2">
-  <h3 class="accordion-header" id="headingSpoiler2">
-  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="eye"></i></div>
-  Expand for details about the Manuscript or publication
-  </h3>
-</button>
-<div id="collapseSpoiler2" class="accordion-collapse collapse" aria-labelledby="headingSpoiler2" data-bs-parent="#accordionSpoiler2">
-<div class="accordion-body">
-<div class="section level4">
-<h4 id="steps-to-take-1">Steps to take<a class="anchor" aria-label="anchor" href="#steps-to-take-1"></a>
-</h4>
+<div id="steps-to-take-2" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div id="steps-to-take-2" class="callout-inner">
+<h3 class="callout-title">Steps to take<a class="anchor" aria-label="anchor" href="#steps-to-take-2"></a>
+</h3>
+<div class="callout-content">
 <ul>
 <li>According to the instructions in the <a href="https://doi.org/10.5281/zenodo.7583831" target="_blank" class="external-link">Guideline
 for the archiving of academic research for Faculties of Behavioural and
@@ -716,15 +752,17 @@ published (or accepted) manuscript or publication in your package.</li>
 description of the problem definition, research design, data collection
 (sampling, selection and representativeness of informants) and methods
 used. An electronic version of the published manuscript will generally
-suffice.”</li>
+suffice.”
+<ul>
 <li>Check that your manuscript contains this information.</li>
+</ul>
+</li>
 <li>Make sure the manuscript is saved in a <a href="https://dans.knaw.nl/en/file-formats/" target="_blank" class="external-link">sustainable
 file format</a>, most likely a .pdf.</li>
 <li>In case your manuscript is not yet finished or accepted, wait with
 including the manuscript until the publication is accepted and/or
 finalized.</li>
 </ul>
-</div>
 <div class="section level4">
 <h4 id="example-file-1">Example file<a class="anchor" aria-label="anchor" href="#example-file-1"></a>
 </h4>
@@ -732,7 +770,6 @@ finalized.</li>
 publication package example repository on Zenodo</a> (note that this is
 a mock publication)</p>
 <figure><img src="fig/01_manuscript-example.png" alt="Manuscript from the EUR publication package example" width="300" class="figure mx-auto d-block"></figure>
-</div>
 </div>
 </div>
 </div>
@@ -750,27 +787,115 @@ two elements: the DMP and the manuscript.</p>
 </div>
 </div>
 </div>
-</section><section><h2 class="section-heading" id="materials-used">Materials used<a class="anchor" aria-label="anchor" href="#materials-used"></a>
+</section><section><h2 class="section-heading" id="readme-file">Readme file<a class="anchor" aria-label="anchor" href="#readme-file"></a>
+<a class="anchor" aria-label="anchor" href="#readme-file"></a>
+</h2>
+<hr class="half-width">
+<figure><img src="fig/08_readme.png" alt="Provide a clear readme describing who was involved in the project, when the data was collected, which documents and files can be found where and how to interpret them" width="300" class="figure mx-auto d-block"></figure><div id="steps-to-take-3" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div id="steps-to-take-3" class="callout-inner">
+<h3 class="callout-title">Steps to take<a class="anchor" aria-label="anchor" href="#steps-to-take-3"></a>
+</h3>
+<div class="callout-content">
+
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="ethics-documentation">Ethics documentation<a class="anchor" aria-label="anchor" href="#ethics-documentation"></a>
+<a class="anchor" aria-label="anchor" href="#ethics-documentation"></a>
+</h2>
+<hr class="half-width">
+<figure><img src="fig/09_ethics-docs.png" alt="Documents related to the ethical approval (e.g. approval letter, blank consent form)" width="300" class="figure mx-auto d-block"></figure><div id="steps-to-take-4" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div id="steps-to-take-4" class="callout-inner">
+<h3 class="callout-title">Steps to take<a class="anchor" aria-label="anchor" href="#steps-to-take-4"></a>
+</h3>
+<div class="callout-content">
+
+</div>
+</div>
+</div>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Key Points<a class="anchor" aria-label="anchor" href="#keypoints1"></a>
+</h3>
+<div class="callout-content">
+<ul>
+<li>tbd</li>
+</ul>
+</div>
+</div>
+</div>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
+</section></section><section id="aio-prep-pkg-data"><p>Content from <a href="prep-pkg-data.html">Prepare your package - II. Materials, data, code</a></p>
+<hr>
+<p>Last updated on 2024-08-15 |
+
+        <a href="https://github.com/carpentries/prep-pub-pkg/edit/main/episodes/prep-pkg-data.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>Which materials, data, and code are needed to prepare a publication
+package for my research project?</li>
+<li>What are best practices for organizing data and code in a
+publication package?</li>
+<li>How do I document my package in such a way that is understandable
+for others?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>Assign all relevant materials, data, and code to the publication
+package of your own research project</li>
+<li>Apply best practices for file names and file formats in your
+publication package</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p>Now that we have gathered all the documentation of the project, the
+next step is to collect all the materials, data, and code that were
+used.</p>
+<section><h2 class="section-heading" id="materials-used">Materials used<a class="anchor" aria-label="anchor" href="#materials-used"></a>
 <a class="anchor" aria-label="anchor" href="#materials-used"></a>
 </h2>
 <hr class="half-width">
-<figure><img src="fig/02_materials.png" alt="Include instructions, procedures, the design of the experiment and stimulus materials (interview guide, questionnaires, surveys, tests) necessary to replicate the research" width="300" class="figure mx-auto d-block"></figure><p>The next step might involve some more work, beceause you need to
-include instructions, procedures, the design of the experiment and
-stimulus materials (interview guide, questionnaires, surveys, tests)
-necessary to replicate the research.</p>
-<div id="accordionSpoiler3" class="accordion spoiler-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button spoiler-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSpoiler3" aria-expanded="false" aria-controls="collapseSpoiler3">
-  <h3 class="accordion-header" id="headingSpoiler3">
-  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="eye"></i></div>
-  Expand for details about the Materials used
-  </h3>
-</button>
-<div id="collapseSpoiler3" class="accordion-collapse collapse" aria-labelledby="headingSpoiler3" data-bs-parent="#accordionSpoiler3">
-<div class="accordion-body">
-<div class="section level4">
-<h4 id="steps-to-take-2">Steps to take<a class="anchor" aria-label="anchor" href="#steps-to-take-2"></a>
-</h4>
+<figure><img src="fig/02_materials.png" alt="Include instructions, procedures, the design of the experiment and stimulus materials (interview guide, questionnaires, surveys, tests) necessary to replicate the research" width="300" class="figure mx-auto d-block"></figure><p>In this step you need to include instructions, procedures, the design
+of the experiment and stimulus materials (interview guide,
+questionnaires, surveys, tests) necessary to replicate the research.</p>
+<div id="steps-to-take" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div id="steps-to-take" class="callout-inner">
+<h3 class="callout-title">Steps to take<a class="anchor" aria-label="anchor" href="#steps-to-take"></a>
+</h3>
+<div class="callout-content">
 <ul>
 <li>According to the instructions in the <a href="https://doi.org/10.5281/zenodo.7583831" target="_blank" class="external-link">Guideline
 for the archiving of academic research for Faculties of Behavioural and
@@ -786,18 +911,32 @@ English.”</li>
 </li>
 <li>Make sure all files are saved in a <a href="https://dans.knaw.nl/en/file-formats/" target="_blank" class="external-link">sustainable
 file format</a>, and that the files are <a href="https://doi.org/10.5281/zenodo.7551576" target="_blank" class="external-link">properly
-named</a>). Save the files in the <code>materials</code> folder.</li>
+named</a>). In case you work with sub folders, save the files in the
+<code>materials</code> folder.</li>
 </ul>
-</div>
 <div class="section level4">
 <h4 id="example-files">Example files<a class="anchor" aria-label="anchor" href="#example-files"></a>
 </h4>
 <p>See the codebook and the questionnaire in the <code>materials</code>
 folder from the <a href="https://doi.org/10.5281/zenodo.7956600" target="_blank" class="external-link">EUR publication package example repository on
-Zenodo</a>. Other examples can be found here: (include other examples,
-including qualitative)</p>
-<figure><img src="fig/02_materials-example-codebook.png" alt="Codebook from the EUR publication package example" width="900" class="figure mx-auto d-block"></figure>
-</div>
+Zenodo</a>.</p>
+<figure><img src="fig/02_materials-example-codebook.png" alt="Codebook from the EUR publication package example" width="900" class="figure mx-auto d-block"></figure><p>Other examples you can think of:</p>
+<ul>
+<li>
+<p>Protocols for interviews or focus groups.</p>
+<ul>
+<li><p>The <a href="https://doi.org/10.17605/OSF.IO/E9U8T" target="_blank" class="external-link">SOPs4RI</a> project has made the protocol for their
+focus group study available on <a href="https://osf.io/kdtnx" target="_blank" class="external-link">their OSF page</a>.</p></li>
+<li><p><a href="https://doi.org/10.17026/dans-2c6-4rfd" target="_blank" class="external-link">Hoogsteder (2020)</a> has shared their interview
+protocol on the <a href="https://lifesciences.datastations.nl/file.xhtml?fileId=13264&amp;version=2.0&amp;toolType=PREVIEW" target="_blank" class="external-link">DANS Data Station Life Sciences</a>.</p></li>
+</ul>
+</li>
+<li>
+<p>Stimulus materials for experiments:</p>
+<ul><li>
+</li></ul>
+</li>
+</ul>
 </div>
 </div>
 </div>
@@ -806,18 +945,16 @@ including qualitative)</p>
 <a class="anchor" aria-label="anchor" href="#raw-data-files"></a>
 </h2>
 <hr class="half-width">
-<figure><img src="fig/03_raw-data.png" alt="Provide the most direct registration of behaviour or reactions of participants. Think of unfiltered export files of surveys, EEG measurements, recordings or transcripts. If needed, include all de-identification steps taken" width="300" class="figure mx-auto d-block"></figure><div id="accordionSpoiler4" class="accordion spoiler-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button spoiler-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSpoiler4" aria-expanded="false" aria-controls="collapseSpoiler4">
-  <h3 class="accordion-header" id="headingSpoiler4">
-  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="eye"></i></div>
-  Expand for details about the Raw data files
-  </h3>
-</button>
-<div id="collapseSpoiler4" class="accordion-collapse collapse" aria-labelledby="headingSpoiler4" data-bs-parent="#accordionSpoiler4">
-<div class="accordion-body">
+<figure><img src="fig/03_raw-data.png" alt="Provide the most direct registration of behaviour or reactions of participants. Think of unfiltered export files of surveys, EEG measurements, recordings or transcripts. If needed, include all de-identification steps taken" width="300" class="figure mx-auto d-block"></figure><div id="expand-for-details-about-the-raw-data-files" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div id="expand-for-details-about-the-raw-data-files" class="callout-inner">
+<h3 class="callout-title">Expand for details about the Raw data files<a class="anchor" aria-label="anchor" href="#expand-for-details-about-the-raw-data-files"></a>
+</h3>
+<div class="callout-content">
 <div class="section level4">
-<h4 id="steps-to-take-3">Steps to take<a class="anchor" aria-label="anchor" href="#steps-to-take-3"></a>
+<h4 id="steps-to-take-1">Steps to take<a class="anchor" aria-label="anchor" href="#steps-to-take-1"></a>
 </h4>
 <ul>
 <li>According to the instructions in the <a href="https://doi.org/10.5281/zenodo.7583831" target="_blank" class="external-link">Guideline
@@ -848,7 +985,7 @@ named</a>). Save the files in the <code>data</code> folder.</li>
 </ul>
 </div>
 <div class="section level4">
-<h4 id="example-file-2">Example file<a class="anchor" aria-label="anchor" href="#example-file-2"></a>
+<h4 id="example-file">Example file<a class="anchor" aria-label="anchor" href="#example-file"></a>
 </h4>
 <p>See the <code>safi_raw.csv</code> file in the <code>data</code>
 folder from the <a href="https://doi.org/10.5281/zenodo.7956600" target="_blank" class="external-link">EUR publication package example repository on
@@ -858,23 +995,19 @@ Zenodo</a></p>
 </div>
 </div>
 </div>
-</div>
 </section><section><h2 class="section-heading" id="preprocessing-computer-code">Preprocessing computer code<a class="anchor" aria-label="anchor" href="#preprocessing-computer-code"></a>
 <a class="anchor" aria-label="anchor" href="#preprocessing-computer-code"></a>
 </h2>
 <hr class="half-width">
-<figure><img src="fig/04_preprocessing-code.png" alt="Include code (such as Atlas.Ti/SPSS/JASP syntax files, R scripts, etc.) describing the steps taken to process raw data into analysis data, including brief explanations of the steps in English" width="300" class="figure mx-auto d-block"></figure><div id="accordionSpoiler5" class="accordion spoiler-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button spoiler-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSpoiler5" aria-expanded="false" aria-controls="collapseSpoiler5">
-  <h3 class="accordion-header" id="headingSpoiler5">
-  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="eye"></i></div>
-  Expand for details about the Preprocessing computer code
-  </h3>
-</button>
-<div id="collapseSpoiler5" class="accordion-collapse collapse" aria-labelledby="headingSpoiler5" data-bs-parent="#accordionSpoiler5">
-<div class="accordion-body">
-
+<figure><img src="fig/04_preprocessing-code.png" alt="Include code (such as Atlas.Ti/SPSS/JASP syntax files, R scripts, etc.) describing the steps taken to process raw data into analysis data, including brief explanations of the steps in English" width="300" class="figure mx-auto d-block"></figure><div id="steps-to-take-2" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
 </div>
+<div id="steps-to-take-2" class="callout-inner">
+<h3 class="callout-title">Steps to take<a class="anchor" aria-label="anchor" href="#steps-to-take-2"></a>
+</h3>
+<div class="callout-content">
+
 </div>
 </div>
 </div>
@@ -882,18 +1015,15 @@ Zenodo</a></p>
 <a class="anchor" aria-label="anchor" href="#processed-data-files"></a>
 </h2>
 <hr class="half-width">
-<figure><img src="fig/05_processed-data.png" alt="Provide data (either raw or processed) that were eventually analysed when preparing the article (e.g. a data file after transforming variables, after applying selection, etc.). If the raw data was analysed directly, step 3 suffices" width="300" class="figure mx-auto d-block"></figure><div id="accordionSpoiler6" class="accordion spoiler-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button spoiler-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSpoiler6" aria-expanded="false" aria-controls="collapseSpoiler6">
-  <h3 class="accordion-header" id="headingSpoiler6">
-  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="eye"></i></div>
-  Expand for details about the Processed data files
-  </h3>
-</button>
-<div id="collapseSpoiler6" class="accordion-collapse collapse" aria-labelledby="headingSpoiler6" data-bs-parent="#accordionSpoiler6">
-<div class="accordion-body">
-
+<figure><img src="fig/05_processed-data.png" alt="Provide data (either raw or processed) that were eventually analysed when preparing the article (e.g. a data file after transforming variables, after applying selection, etc.). If the raw data was analysed directly, step 3 suffices" width="300" class="figure mx-auto d-block"></figure><div id="steps-to-take-3" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
 </div>
+<div id="steps-to-take-3" class="callout-inner">
+<h3 class="callout-title">Steps to take<a class="anchor" aria-label="anchor" href="#steps-to-take-3"></a>
+</h3>
+<div class="callout-content">
+
 </div>
 </div>
 </div>
@@ -901,56 +1031,15 @@ Zenodo</a></p>
 <a class="anchor" aria-label="anchor" href="#analysis-computer-code"></a>
 </h2>
 <hr class="half-width">
-<figure><img src="fig/06_analysis-code.png" alt="Include code describing the steps taken to process the analysis data into the results reported in the manuscript, including brief explanations of the steps in English" width="300" class="figure mx-auto d-block"></figure><div id="accordionSpoiler7" class="accordion spoiler-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button spoiler-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSpoiler7" aria-expanded="false" aria-controls="collapseSpoiler7">
-  <h3 class="accordion-header" id="headingSpoiler7">
-  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="eye"></i></div>
-  Expand for details about the Analysis computer code
-  </h3>
-</button>
-<div id="collapseSpoiler7" class="accordion-collapse collapse" aria-labelledby="headingSpoiler7" data-bs-parent="#accordionSpoiler7">
-<div class="accordion-body">
+<figure><img src="fig/06_analysis-code.png" alt="Include code describing the steps taken to process the analysis data into the results reported in the manuscript, including brief explanations of the steps in English" width="300" class="figure mx-auto d-block"></figure><div id="steps-to-take-4" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div id="steps-to-take-4" class="callout-inner">
+<h3 class="callout-title">Steps to take<a class="anchor" aria-label="anchor" href="#steps-to-take-4"></a>
+</h3>
+<div class="callout-content">
 
-</div>
-</div>
-</div>
-</div>
-</section><section><h2 class="section-heading" id="readme-file">Readme file<a class="anchor" aria-label="anchor" href="#readme-file"></a>
-<a class="anchor" aria-label="anchor" href="#readme-file"></a>
-</h2>
-<hr class="half-width">
-<figure><img src="fig/08_readme.png" alt="Provide a clear readme describing who was involved in the project, when the data was collected, which documents and files can be found where and how to interpret them" width="300" class="figure mx-auto d-block"></figure><div id="accordionSpoiler8" class="accordion spoiler-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button spoiler-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSpoiler8" aria-expanded="false" aria-controls="collapseSpoiler8">
-  <h3 class="accordion-header" id="headingSpoiler8">
-  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="eye"></i></div>
-  Expand for details about the Readme file
-  </h3>
-</button>
-<div id="collapseSpoiler8" class="accordion-collapse collapse" aria-labelledby="headingSpoiler8" data-bs-parent="#accordionSpoiler8">
-<div class="accordion-body">
-
-</div>
-</div>
-</div>
-</div>
-</section><section><h2 class="section-heading" id="ethics-documentation">Ethics documentation<a class="anchor" aria-label="anchor" href="#ethics-documentation"></a>
-<a class="anchor" aria-label="anchor" href="#ethics-documentation"></a>
-</h2>
-<hr class="half-width">
-<figure><img src="fig/09_ethics-docs.png" alt="Documents related to the ethical approval (e.g. approval letter, blank consent form)" width="300" class="figure mx-auto d-block"></figure><div id="accordionSpoiler9" class="accordion spoiler-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button spoiler-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSpoiler9" aria-expanded="false" aria-controls="collapseSpoiler9">
-  <h3 class="accordion-header" id="headingSpoiler9">
-  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="eye"></i></div>
-  Expand for details about the Ethics documentation
-  </h3>
-</button>
-<div id="collapseSpoiler9" class="accordion-collapse collapse" aria-labelledby="headingSpoiler9" data-bs-parent="#accordionSpoiler9">
-<div class="accordion-body">
-
-</div>
 </div>
 </div>
 </div>
