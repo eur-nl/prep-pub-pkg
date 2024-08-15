@@ -1,0 +1,95 @@
+---
+title: 'Prepare your package - I. Documentation'
+teaching: 10
+exercises: 2
+---
+
+::: questions
+-   Which documents are needed in a publication package for my research project?
+-   How do I document my package in such a way that is understandable for others?
+:::
+
+::: objectives
+-   Assign all relevant research documentation to the publication package of your own research project
+-   Apply best practices for file names and file formats in your publication package
+:::
+
+Instead of chronologically adding the components according to their numbering in the [list of publication package components](introduction.Rmd##the-contents-of-a-publication-package), we will first gather all documentation that is needed for your package in this part of the workshop. Hopefully, most of these documents are already available somewhere on your system (except probably for the readme file). In that case, you can quickly start building your package by gathering those files, perhaps focusing mostly on improving file names and file formats.
+
+## Project folder
+
+First, we need a place to save all the components of the publication package in one place.
+
+::: callout
+#### Steps to take
+
+-   Create a folder with a clear name for the research project (use the [three principles for file naming described in this presentation](https://doi.org/10.5281/zenodo.7551576){target="_blank"})
+-   Optionally, you can create a small folder structure with sub folders if you prefer (for exampl, such as used in the [EUR publication package example](https://doi.org/10.5281/zenodo.7956600){target="_blank"})
+:::
+
+## Data management plan
+
+![](fig/07_data-mgmt-plan.png){width="300" alt="Data management plan. Provide a copy of the most recent version of your data management plan"}
+
+The first component that we will add to the package is number 7 in our [list of publication package components](introduction.Rmd##the-contents-of-a-publication-package): the data management plan.
+
+::: callout
+#### Steps to take
+
+-   You should simply provide a copy of the most recent version of your data management plan.
+-   Make sure it is saved in a [sustainable file format](https://dans.knaw.nl/en/file-formats/){target="_blank"}. This can be a .pdf or .odt file. If you have your most recent version in [dmponline](https://dmponline.eur.nl/){target="_blank"}, you can download it to your computer in pdf or an alternative format using the `Download` tab.
+-   Provide the document with a good file name (use the [three principles for file naming described in this presentation](https://doi.org/10.5281/zenodo.7551576){target="_blank"}) and save it in the `documentation` folder.
+-   It is also a good moment to take a look at the contents of your data management plan: is it still up to date? Do you need to take more steps to put it into practice?
+
+#### Example file
+
+See the `documentation/dmp_eur-pp_v1.pdf` file from the [EUR publication package example repository on Zenodo](https://doi.org/10.5281/zenodo.7956600){target="_blank"}
+
+![](fig/07_data-mgmt-plan-example.png){width="300" alt="Data management plan from the EUR publication package example"}
+:::
+
+## Manuscript or publication
+
+![](fig/01_manuscript.png){width="300" alt="Must include a brief description of the problem definition, research design, data collection (sampling, selection and representativeness of informants) and methods used"}
+
+Let's now continue chronologically with number 1 in our [list of publication package components](introduction.Rmd##the-contents-of-a-publication-package).
+
+::: callout
+#### Steps to take
+
+-   According to the instructions in the [Guideline for the archiving of academic research for Faculties of Behavioural and Social Sciences in the Netherlands](https://doi.org/10.5281/zenodo.7583831){target="_blank"} (p.8) you should include the published (or accepted) manuscript or publication in your package.
+-   Additionally, it is stated that you "must include a brief description of the problem definition, research design, data collection (sampling, selection and representativeness of informants) and methods used. An electronic version of the published manuscript will generally suffice."
+    -   Check that your manuscript contains this information.
+-   Make sure the manuscript is saved in a [sustainable file format](https://dans.knaw.nl/en/file-formats/){target="_blank"}, most likely a .pdf.
+-   In case your manuscript is not yet finished or accepted, wait with including the manuscript until the publication is accepted and/or finalized.
+
+#### Example file
+
+See the `manuscript_rsos_20230401.pdf` file from the [EUR publication package example repository on Zenodo](https://doi.org/10.5281/zenodo.7956600){target="_blank"} (note that this is a mock publication)
+
+![](fig/01_manuscript-example.png){width="300" alt="Manuscript from the EUR publication package example"}
+:::
+
+::: challenge
+Short challenge to work together with your peer and look at the first two elements: the DMP and the manuscript.
+:::
+
+## Readme file
+
+![](fig/08_readme.png){width="300" alt="Provide a clear readme describing who was involved in the project, when the data was collected, which documents and files can be found where and how to interpret them"}
+
+::: callout
+#### Steps to take
+:::
+
+## Ethics documentation
+
+![](fig/09_ethics-docs.png){width="300" alt="Documents related to the ethical approval (e.g. approval letter, blank consent form)"}
+
+::: callout
+#### Steps to take
+:::
+
+::: keypoints
+-   tbd
+:::

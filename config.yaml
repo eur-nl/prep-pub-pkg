@@ -58,19 +58,20 @@ contact: 'e.klapwijk@essb.eur.nl'
 # - another-learner.md
 
 # Order of episodes in your lesson
-episodes: 
+episodes:
 - introduction.Rmd
-- prep-pkg.Rmd
+- prep-pkg-docs.Rmd
+- prep-pkg-data.Rmd
 - archive-share-pkg.Rmd
 
 # Information for Learners
-learners: 
+learners:
 
 # Information for Instructors
-instructors: 
+instructors:
 
 # Learner Profiles
-profiles: 
+profiles:
 
 # Customisation ---------------------------------------------
 #
