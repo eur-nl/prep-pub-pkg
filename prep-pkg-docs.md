@@ -43,9 +43,9 @@ The first component that we will add to the package is number 7 in our [list of 
 
 #### Example file
 
-See the `documentation/dmp_eur-pp_v1.pdf` file from the [EUR publication package example repository on Zenodo](https://doi.org/10.5281/zenodo.7956600){target="_blank"}
+See the `documentation/dmp_eur-pp_v1.pdf` file from the [EUR publication package example repository on Zenodo](https://doi.org/10.5281/zenodo.7956600){target="_blank"}:
 
-![](fig/07_data-mgmt-plan-example.png){width="300" alt="Data management plan from the EUR publication package example"}
+![](files/dmp_eur-pp_v1.pdf){width="80%" height="400" alt="Data management plan from the EUR publication package example"}
 :::
 
 ## Manuscript or publication
@@ -67,7 +67,7 @@ Let's now continue chronologically with number 1 in our [list of publication pac
 
 See the `manuscript_rsos_20230401.pdf` file from the [EUR publication package example repository on Zenodo](https://doi.org/10.5281/zenodo.7956600){target="_blank"} (note that this is a mock publication)
 
-![](fig/01_manuscript-example.png){width="300" alt="Manuscript from the EUR publication package example"}
+![](files/manuscript_rsos_20230401.pdf){width="80%" height="400" alt="Manuscript from the EUR publication package example"}:
 :::
 
 ::: challenge
@@ -80,6 +80,29 @@ Short challenge to work together with your peer and look at the first two elemen
 
 ::: callout
 #### Steps to take
+
+-   According to the instructions in the [Guideline for the archiving of academic research for Faculties of Behavioural and Social Sciences in the Netherlands](https://doi.org/10.5281/zenodo.7583831){target="_blank"} (p.9) you should include a "readme file (metadata) describing which documents and files can be found where and how they should be interpreted". A specific list of information that the readme file should contain is also provided:
+    -   Name of the person who stored the documents or files
+    -   Division of roles among authors, indicating at least who analysed the data
+    -   Date on which the manuscript was accepted, including reference
+    -   Date/period of data collection
+    -   Names of people who collected the data
+    -   If relevant: addresses of field locations where data were collected and contact persons (if any)
+    -   Whether or not an ethical assessment took place before the research, and, if relevant, study reference from and statements made by the Ethics Review Committee
+    -   Whether the data is made open or not and if not, a valid reason for not opening up the data
+-   Make sure you make the readme file in plain text, using a text editor, like Notepad/TextEdit/Vim, **not** Word (save as .txt). Alternatively, if you feel comfortable with Markdown, you can use the Markdown format (.md)
+
+#### Example file
+
+See the `README.txt` file from the [EUR publication package example repository on Zenodo](https://doi.org/10.5281/zenodo.7956600){target="_blank"}:
+
+![](files/README.txt){width="80%" height="400" alt="README file from the EUR publication package example"}
+
+Other examples that you can use to get started with a readme:
+
+-   The [Cornell guide to writing “readme” style metadata](https://data.research.cornell.edu/data-management/sharing/readme/){target="_blank"} is a very helpful resource that includes a good readme template
+
+-   Colleagues from Leiden University provide a [specific readme template based on the Guideline for archiving for Faculties of Behavioural and Social Sciences in the Netherlands](https://doi.org/10.5281/zenodo.7113206)
 :::
 
 ## Ethics documentation
@@ -88,6 +111,18 @@ Short challenge to work together with your peer and look at the first two elemen
 
 ::: callout
 #### Steps to take
+-   You should provide the documents related to the ethical approval. Think of the approval letter from the ethical committee, a blank consent form, and the ethics application text for your project.
+-   Make sure the files are saved in a [sustainable file format](https://dans.knaw.nl/en/file-formats/){target="_blank"}. This can be a .pdf or .odt file. 
+-   Provide the documents with a good file name (use the [three principles for file naming described in this presentation](https://doi.org/10.5281/zenodo.7551576){target="_blank"}) and save it in the `documentation` folder.
+
+#### Example files
+See the `documentation/ethics_approval_letter.pdf` and `documentation/informed_consent_form.pdf` file from the [EUR publication package example repository on Zenodo](https://doi.org/10.5281/zenodo.7956600){target="_blank"}:
+
+![](files/ethics_approval_letter.pdf){width="80%" height="400" alt="ethics approval letter from the EUR publication package example"}
+
+![](files/informed_consent_form.pdf){width="80%" height="400" alt="blank consent form from the EUR publication package example"}
+
+
 :::
 
 ::: keypoints
