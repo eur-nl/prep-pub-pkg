@@ -24,13 +24,13 @@ First and foremost, the inevitable reason to create a publication package is tha
 ### Guidelines and policies
 
 -   All researchers in the Netherlands should adhere to the [Netherlands Code of Conduct for Research Integrity](https://doi.org/10.17026/dans-2cj-nvwu){target="_blank"}, which describes that it should be clear to others what data the research was based on, how the data were obtained, what and how results were achieved, and that the steps in the research process must be verifiable.
--   Similarly, The [The European Code of Conduct for Research Integrity](https://www.doi.org/10.26356/ECOC){target="_blank"} requires that researchers share their results in an open, honest, transparent, and accurate manner and that they preserve all data, metadata, protocols, code, software, and other research materials appropriately.
+-   Similarly, the [European Code of Conduct for Research Integrity](https://www.doi.org/10.26356/ECOC){target="_blank"} requires that researchers share their results in an open, honest, transparent, and accurate manner and that they preserve all data, metadata, protocols, code, software, and other research materials appropriately.
 -   The [Guideline for the archiving of academic research for Faculties of Behavioural and Social Sciences in the Netherlands](https://doi.org/10.5281/zenodo.7583831){target="_blank"} describes how this should be achieved by creating a so-called publication package for each publication.
 -   At a University level, the [Research Data Management Policy](https://doi.org/10.25397/eur.16912120.v1){target="_blank"} of Erasmus University Rotterdam dictates that data must be stored in a correct, complete, unadulterated and reliable manner, and whenever possible, available for subsequent use.
 -   Additionally, there are also very similar requirements from funders (see for example the [NWO](https://www.nwo.nl/en/research-data-management){target="_blank"} and [ERC](https://erc.europa.eu/manage-your-project/open-science){target="_blank"} policies on research data management) and journals (see for example the [PLOS](https://journals.plos.org/plosone/s/data-availability){target="_blank"} and [Nature portfolio journals](https://www.nature.com/nature/editorial-policies/reporting-standards){target="_blank"} policies on data availability)
 :::
 
-The conclusion that follows from the (non-exhaustive) list of guidelines and policies above is that as a researcher, you are required to clearly document your whole research process, store it in a safe place and make it publicly available whenever possible (as open as possible and as closed as necessary). By creating a publication package for your published research results, you will end up with a structured bundle detailing everything that is needed to verify and replicate the results published in a specific manuscript.
+The conclusion that follows from the (non-exhaustive) list of guidelines and policies above is that as a researcher, you are required to clearly document your whole research process, store it in a safe place and make it publicly available whenever possible (*as open as possible and as closed as necessary*). By creating a publication package for your published research results, you will end up with a structured bundle detailing everything that is needed to verify and replicate the results published in a specific manuscript.
 
 ::: discussion
 Some questions to discuss with your peers:
@@ -44,17 +44,15 @@ Some questions to discuss with your peers:
 
 ### Benefits for you and your colleagues
 
-#### Documentation for your future self
+Publication packages also yield many benefits for yourself and your direct colleagues:
 
-Imagine you are going to reuse your data in a week, a month, a year, or even in 10 years time. Then it is very important that you will document your data thoroughly, because you will not remember all details about the data. And be aware: your past self doesn’t answer emails! Well-documented data helps you to remember and understand all the details even many years later (but it might be useful sooner as well).
+**Benefits for your future self**
 
-#### Documentation for collaborators and re-usability
+-   Imagine you are going to reuse your data or rerun an analysis in a week, a month, a year, or even in 10 years time. Then it is very important that you will organize and document your project thoroughly, because you will not remember all details about the project. And be aware: your past self doesn’t answer emails! Well-documented data, code and other materials help you to remember and understand all the details even many years later (but it might be useful sooner as well).
 
-Well-documented data also helps others to use the data. When you collaborate with others in a research project, good documentation and metadata will save you countless emails and meetings to explain the details about the data. This is also the case when you are planning to make your data available for re-use. In that case, you want your dataset to be self-explanatory, in such a way that others can use it independently.
+**Benefits for your collaborators and for re-usability**
 
-#### Documentation to smoothly work with data
-
-In addition, properly annotated data also helps you to complete rote tasks faster and help you make fewer errors. If you know exactly what data is where and files and variables are named unambiguously, you can avoid mistakes and you can more easily automate data processing tasks.
+-   Well-documented projects also help others to use the data, verify the results and build further on your findings. When you collaborate with others in a research project, good documentation and metadata will save you countless emails and meetings to explain the details about the project. This is also the case when you are planning to make your data, code and other materials available for re-use. In that case, you want your project components to be self-explanatory, in such a way that others can use it independently.
 
 ## The contents of a publication package
 
@@ -84,18 +82,14 @@ In the infographic above, the contents of a publication package as described in 
 
 :::
 
-In the second part of the workshop, we will look into the different components of a publication package in more detail. 
-The [EUR publication package example](https://doi.org/10.5281/zenodo.7956600){target="_blank"} that you downloaded to your computer (see [data sets section on the setup page](setup.md#data-sets)) provides examples for all of the components.
-Additionally, in most cases you will hopefully have some components ready at hand (e.g., a data management plan) and you can immediately add it to your draft publication package.
+In the second part of the workshop, we will look into the different components of a publication package in more detail. The [EUR publication package example](https://doi.org/10.5281/zenodo.7956600){target="_blank"} that you downloaded to your computer (see [data sets section on the setup page](setup.md#data-sets)) provides examples for all of the components. Additionally, in most cases you will hopefully have some components ready at hand (e.g., a data management plan) and you can immediately add it to your draft publication package.
 
 ::: instructor
 Inline instructor notes can help inform instructors of timing challenges associated with the lessons. They appear in the "Instructor View"
 :::
 
-
 ::: keypoints
 -   Create a publication package to comply with (inter)national policies
 -   Documenting research in a publication package makes your life easier
 -   The nine elements of a publication package include data, code, materials and documentation
-
 :::
