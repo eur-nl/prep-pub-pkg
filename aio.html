@@ -874,7 +874,7 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-prep-pkg-data"><p>Content from <a href="prep-pkg-data.html">Prepare your package - II. Materials, data, code</a></p>
 <hr>
-<p>Last updated on 2024-08-15 |
+<p>Last updated on 2024-08-30 |
 
         <a href="https://github.com/carpentries/prep-pub-pkg/edit/main/episodes/prep-pkg-data.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -952,7 +952,7 @@ named</a>). In case you work with sub folders, save the files in the
 </h4>
 <p>See the codebook and the questionnaire in the <code>materials</code>
 folder from the <a href="https://doi.org/10.5281/zenodo.7956600" target="_blank" class="external-link">EUR publication package example repository on
-Zenodo</a>.</p>
+Zenodo</a>:</p>
 <figure><img src="fig/02_materials-example-codebook.png" alt="Codebook from the EUR publication package example" width="900" class="figure mx-auto d-block"></figure><p>Other examples you can think of:</p>
 <ul>
 <li>
@@ -977,27 +977,35 @@ protocol on the <a href="https://lifesciences.datastations.nl/file.xhtml?fileId=
 </section><section><h2 class="section-heading" id="raw-data-files">Raw data files<a class="anchor" aria-label="anchor" href="#raw-data-files"></a>
 </h2>
 <hr class="half-width">
-<figure><img src="fig/03_raw-data.png" alt="Provide the most direct registration of behaviour or reactions of participants. Think of unfiltered export files of surveys, EEG measurements, recordings or transcripts. If needed, include all de-identification steps taken" width="300" class="figure mx-auto d-block"></figure><div id="expand-for-details-about-the-raw-data-files" class="callout">
+<figure><img src="fig/03_raw-data.png" alt="Provide the most direct registration of behaviour or reactions of participants. Think of unfiltered export files of surveys, EEG measurements, recordings or transcripts. If needed, include all de-identification steps taken" width="300" class="figure mx-auto d-block"></figure><div id="steps-to-take-1" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="expand-for-details-about-the-raw-data-files" class="callout-inner">
-<h3 class="callout-title">Expand for details about the Raw data files</h3>
+<div id="steps-to-take-1" class="callout-inner">
+<h3 class="callout-title">Steps to take</h3>
 <div class="callout-content">
-<div class="section level4">
-<h4 id="steps-to-take-1">Steps to take<a class="anchor" aria-label="anchor" href="#steps-to-take-1"></a>
-</h4>
 <ul>
 <li>According to the instructions in the <a href="https://doi.org/10.5281/zenodo.7583831" target="_blank" class="external-link">Guideline
 for the archiving of academic research for Faculties of Behavioural and
 Social Sciences in the Netherlands</a> (p.8) you should provide:
 <ul>
-<li>The raw data files, “providing the most direct registration of the
-behaviour or reactions of test subjects/respondents, for example an
-unfiltered export file of an online survey or raw time series for an EEG
-measurement, e-dat files for an E-Prime behaviour experiment, recordings
-or transcripts of interviews, descriptions of observations, archive and
-other source or media material”.</li>
+<li>The raw data files, which are “the unedited data that are collected
+within the framework of a research project (…) providing the most direct
+registration of the behaviour or reactions of test
+subjects/respondents”. Examples given:
+<ul>
+<li>Registrations derived from experimental research (e.g., unfiltered
+export file of an online survey or raw time series for an EEG
+measurement, e-dat files for an E-Prime behaviour experiment)</li>
+<li>Survey data from questionnaires completed within the framework of
+research (including longitudinal research), collected by the researcher
+themselves or by an external fieldwork organization</li>
+<li>(Transcripts of) video material collected within the framework of
+qualitative research (open interviews, observations)</li>
+<li>Notes taken within the framework of qualitative research or research
+using source or media material</li>
+</ul>
+</li>
 <li>In case you de-identified the data, you also need to include
 documentation of the steps taken to de-identify the data. Note that only
 personal data such as contact details or other variables not needed for
@@ -1014,14 +1022,13 @@ this archive will suffice.</li>
 file format</a> such as .csv, and that the files are <a href="https://doi.org/10.5281/zenodo.7551576" target="_blank" class="external-link">properly
 named</a>). Save the files in the <code>data</code> folder.</li>
 </ul>
-</div>
 <div class="section level4">
 <h4 id="example-file">Example file<a class="anchor" aria-label="anchor" href="#example-file"></a>
 </h4>
 <p>See the <code>safi_raw.csv</code> file in the <code>data</code>
 folder from the <a href="https://doi.org/10.5281/zenodo.7956600" target="_blank" class="external-link">EUR publication package example repository on
-Zenodo</a></p>
-<figure><img src="fig/03_raw-data-example.png" alt="Raw data from the EUR publication package example" width="900" class="figure mx-auto d-block"></figure>
+Zenodo</a>:</p>
+<figure><img src="fig/03_raw-data-example.png" style="width:80.0%" alt="Raw data from the EUR publication package example" height="400" class="figure mx-auto d-block"></figure>
 </div>
 </div>
 </div>
@@ -1036,7 +1043,48 @@ Zenodo</a></p>
 <div id="steps-to-take-2" class="callout-inner">
 <h3 class="callout-title">Steps to take</h3>
 <div class="callout-content">
-
+<ul>
+<li>You should include computer code (for example Atlas.ti, SPSS/JASP
+syntax file, MATLAB analysis scripts, R code) describing the steps taken
+to process the raw data into analysis data. This should include brief
+explanations of the steps in English, for example a brief description of
+the steps taken in the qualitative analysis of primary research data
+(themes, domains, taxonomies, components).</li>
+<li>There are many ways to include computer code in your publication
+package, depending on the analysis tools you use. Using tools like <a href="https://quarto.org/" target="_blank" class="external-link">Quarto</a>, <a href="https://rmarkdown.rstudio.com/" target="_blank" class="external-link">R markdown</a>, or
+<a href="https://jupyter.org/" target="_blank" class="external-link">Jupyter notebooks</a> is
+a great way to share code and narrative text in one document.</li>
+<li>A bonus option would be to have your preprocessing and analysis code
+checked for reproducibility by others. You can consider submitting your
+data and code to <a href="https://www.reprohack.org/" target="_blank" class="external-link">ReproHack</a> or <a href="https://codecheck.org.uk/" target="_blank" class="external-link">CODECHECK</a>. Even if you don’t, it would be helpful to
+take into account their guidelines: both initiatives emphasize that
+documentation of your code is key!</li>
+</ul>
+<div class="section level4">
+<h4 id="example-files-1">Example files<a class="anchor" aria-label="anchor" href="#example-files-1"></a>
+</h4>
+<p>See the <code>preprocessing_safi.qmd</code> and
+<code>preprocessing_safi.html</code> file in the <code>scripts</code>
+folder from the <a href="https://doi.org/10.5281/zenodo.7956600" target="_blank" class="external-link">EUR publication package example repository on
+Zenodo</a>. The .qmd file is a <a href="https://quarto.org/" target="_blank" class="external-link">Quarto</a> markdown document, in which R code and
+documentation are combined. It produces a readable html file that can
+also be included in the publication package. See the html file
+below:</p>
+<p><embed src="files/preprocessing_safi.html" style="width:80.0%" alt="Rendered html file for the preprocessing code from the EUR publication package example" height="600"></embed></p>
+<p>Other examples you can think of:</p>
+<ul>
+<li>
+<p>Descriptions of steps taken to process qualitative data.</p>
+<ul>
+<li>
+<a href="https://doi.org/10.17026/dans-xkd-48aj" target="_blank" class="external-link">Hanzon (2019)</a> has shared a description of the color
+coding of their interviews on the <a href="https://ssh.datastations.nl/file.xhtml?fileId=11060&amp;version=1.0&amp;toolType=PREVIEW" target="_blank" class="external-link">DANS Data Station Social Science and Humanities</a> as
+well as the <a href="https://ssh.datastations.nl/file.xhtml?fileId=11058&amp;version=1.0&amp;toolType=PREVIEW" target="_blank" class="external-link">color-coded version of the anonymized interview
+transcripts</a> (in Dutch).</li>
+</ul>
+</li>
+</ul>
+</div>
 </div>
 </div>
 </div>
@@ -1203,8 +1251,8 @@ any links that you are not going to use.
   "url": "https://carpentries.github.io/prep-pub-pkg/aio.html",
   "identifier": "https://carpentries.github.io/prep-pub-pkg/aio.html",
   "dateCreated": "2024-07-12",
-  "dateModified": "2024-08-27",
-  "datePublished": "2024-08-27"
+  "dateModified": "2024-08-30",
+  "datePublished": "2024-08-30"
 }
 
   </script><script>
