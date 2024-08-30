@@ -20,7 +20,7 @@ Instead of chronologically adding the components according to their numbering in
 
 First, we need a place to save all the components of the publication package in one place.
 
-::: callout
+::: checklist
 #### Steps to take
 
 -   Create a folder with a clear name for the research project (use the [three principles for file naming described in this presentation](https://doi.org/10.5281/zenodo.7551576){target="_blank"})
@@ -33,14 +33,16 @@ First, we need a place to save all the components of the publication package in 
 
 The first component that we will add to the package is number 7 in our [list of publication package components](introduction.Rmd##the-contents-of-a-publication-package): the data management plan.
 
-::: callout
+::: checklist
 #### Steps to take
 
 -   You should simply provide a copy of the most recent version of your data management plan.
 -   Make sure it is saved in a [sustainable file format](https://dans.knaw.nl/en/file-formats/){target="_blank"}. This can be a .pdf or .odt file. If you have your most recent version in [dmponline](https://dmponline.eur.nl/){target="_blank"}, you can download it to your computer in pdf or an alternative format using the `Download` tab.
 -   Provide the document with a good file name (use the [three principles for file naming described in this presentation](https://doi.org/10.5281/zenodo.7551576){target="_blank"}) and save it in the `documentation` folder.
 -   It is also a good moment to take a look at the contents of your data management plan: is it still up to date? Do you need to take more steps to put it into practice?
+:::
 
+::: callout
 #### Example file
 
 See the `documentation/dmp_eur-pp_v1.pdf` file from the [EUR publication package example repository on Zenodo](https://doi.org/10.5281/zenodo.7956600){target="_blank"}:
@@ -54,7 +56,7 @@ See the `documentation/dmp_eur-pp_v1.pdf` file from the [EUR publication package
 
 Let's now continue chronologically with number 1 in our [list of publication package components](introduction.Rmd##the-contents-of-a-publication-package).
 
-::: callout
+::: checklist
 #### Steps to take
 
 -   According to the instructions in the [Guideline for the archiving of academic research for Faculties of Behavioural and Social Sciences in the Netherlands](https://doi.org/10.5281/zenodo.7583831){target="_blank"} (p.8) you should include the published (or accepted) manuscript or publication in your package.
@@ -63,6 +65,9 @@ Let's now continue chronologically with number 1 in our [list of publication pac
 -   Make sure the manuscript is saved in a [sustainable file format](https://dans.knaw.nl/en/file-formats/){target="_blank"}, most likely a .pdf.
 -   In case your manuscript is not yet finished or accepted, wait with including the manuscript until the publication is accepted and/or finalized.
 
+:::
+
+::: callout
 #### Example file
 
 See the `manuscript_rsos_20230401.pdf` file from the [EUR publication package example repository on Zenodo](https://doi.org/10.5281/zenodo.7956600){target="_blank"} (note that this is a mock publication)
@@ -78,7 +83,7 @@ Short challenge to work together with your peer and look at the first two elemen
 
 ![](fig/08_readme.png){width="300" alt="Provide a clear readme describing who was involved in the project, when the data was collected, which documents and files can be found where and how to interpret them"}
 
-::: callout
+::: checklist
 #### Steps to take
 
 -   According to the instructions in the [Guideline for the archiving of academic research for Faculties of Behavioural and Social Sciences in the Netherlands](https://doi.org/10.5281/zenodo.7583831){target="_blank"} (p.9) you should include a "readme file (metadata) describing which documents and files can be found where and how they should be interpreted". A specific list of information that the readme file should contain is also provided:
@@ -92,6 +97,9 @@ Short challenge to work together with your peer and look at the first two elemen
     -   Whether the data is made open or not and if not, a valid reason for not opening up the data
 -   Make sure you make the readme file in plain text, using a text editor, like Notepad/TextEdit/Vim, **not** Word (save as .txt). Alternatively, if you feel comfortable with Markdown, you can use the Markdown format (.md)
 
+:::
+
+::: callout
 #### Example file
 
 See the `README.txt` file from the [EUR publication package example repository on Zenodo](https://doi.org/10.5281/zenodo.7956600){target="_blank"}:
@@ -109,19 +117,21 @@ Other examples that you can use to get started with a readme:
 
 ![](fig/09_ethics-docs.png){width="300" alt="Documents related to the ethical approval (e.g. approval letter, blank consent form)"}
 
-::: callout
+::: checklist
 #### Steps to take
 -   You should provide the documents related to the ethical approval. Think of the approval letter from the ethical committee, a blank consent form, and the ethics application text for your project.
 -   Make sure the files are saved in a [sustainable file format](https://dans.knaw.nl/en/file-formats/){target="_blank"}. This can be a .pdf or .odt file. 
 -   Provide the documents with a good file name (use the [three principles for file naming described in this presentation](https://doi.org/10.5281/zenodo.7551576){target="_blank"}) and save it in the `documentation` folder.
 
+:::
+
+::: callout
 #### Example files
 See the `documentation/ethics_approval_letter.pdf` and `documentation/informed_consent_form.pdf` file from the [EUR publication package example repository on Zenodo](https://doi.org/10.5281/zenodo.7956600){target="_blank"}:
 
 ![](files/ethics_approval_letter.pdf){width="80%" height="400" alt="ethics approval letter from the EUR publication package example"}
 
 ![](files/informed_consent_form.pdf){width="80%" height="400" alt="blank consent form from the EUR publication package example"}
-
 
 :::
 
