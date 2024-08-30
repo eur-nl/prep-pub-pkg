@@ -23,13 +23,16 @@ Now that we have gathered all the documentation of the project, the next step is
 
 In this step you need to include instructions, procedures, the design of the experiment and stimulus materials (interview guide, questionnaires, surveys, tests) necessary to replicate the research.
 
-::: callout
+::: checklist
 #### Steps to take
 
 -   According to the instructions in the [Guideline for the archiving of academic research for Faculties of Behavioural and Social Sciences in the Netherlands](https://doi.org/10.5281/zenodo.7583831){target="_blank"} (p.8) you should include:
     -   "The instructions, procedures, the design of the experiment and stimulus materials (interview guide, questionnaires, surveys, tests) that can reasonably be deemed necessary in order to replicate the research. The materials must be available in the language in which the research was conducted. The publication package must be in English."
 -   Make sure all files are saved in a [sustainable file format](https://dans.knaw.nl/en/file-formats/){target="_blank"}, and that the files are [properly named](https://doi.org/10.5281/zenodo.7551576){target="_blank"}). In case you work with sub folders, save the files in the `materials` folder.
 
+:::
+
+::: callout
 #### Example files
 
 See the codebook and the questionnaire in the `materials` folder from the [EUR publication package example repository on Zenodo](https://doi.org/10.5281/zenodo.7956600){target="_blank"}:
@@ -53,7 +56,7 @@ Other examples you can think of:
 
 ![](fig/03_raw-data.png){width="300" alt="Provide the most direct registration of behaviour or reactions of participants. Think of unfiltered export files of surveys, EEG measurements, recordings or transcripts. If needed, include all de-identification steps taken"}
 
-::: callout
+::: checklist
 #### Steps to take
 
 -   According to the instructions in the [Guideline for the archiving of academic research for Faculties of Behavioural and Social Sciences in the Netherlands](https://doi.org/10.5281/zenodo.7583831){target="_blank"} (p.8) you should provide:
@@ -66,18 +69,21 @@ Other examples you can think of:
 -   If the raw data files have been accessibly stored in an external data repository (such as a [DANS](https://dans.knaw.nl/en/){target="_blank"} Data Station), making reference to the files in this archive will suffice.
 -   Make sure all files are saved in a [sustainable file format](https://dans.knaw.nl/en/file-formats/){target="_blank"} such as .csv, and that the files are [properly named](https://doi.org/10.5281/zenodo.7551576){target="_blank"}). Save the files in the `data` folder.
 
+:::
+
+::: callout
 #### Example file
 
 See the `safi_raw.csv` file in the `data` folder from the [EUR publication package example repository on Zenodo](https://doi.org/10.5281/zenodo.7956600){target="_blank"}:
 
-![](fig/03_raw-data-example.png){width="80%" height="400" alt="Raw data from the EUR publication package example"}
+![](fig/03_raw-data-example.png){width="80%" alt="Raw data from the EUR publication package example"}
 :::
 
 ## Preprocessing computer code
 
 ![](fig/04_preprocessing-code.png){width="300" alt="Include code (such as Atlas.Ti/SPSS/JASP syntax files, R scripts, etc.) describing the steps taken to process raw data into analysis data, including brief explanations of the steps in English"}
 
-::: callout
+::: checklist
 #### Steps to take
 
 -   You should include computer code (for example Atlas.ti, SPSS/JASP syntax file, MATLAB analysis scripts, R code) describing the steps taken to process the raw data into analysis data. 
@@ -86,6 +92,9 @@ This should include brief explanations of the steps in English, for example a br
 Using tools like [Quarto](https://quarto.org/){target="_blank"}, [R markdown](https://rmarkdown.rstudio.com/){target="_blank"}, or [Jupyter notebooks](https://jupyter.org/){target="_blank"} is a great way to share code and narrative text in one document.
 -   A bonus option would be to have your preprocessing and analysis code checked for reproducibility by others. You can consider submitting your data and code to [ReproHack](https://www.reprohack.org/){target="_blank"} or [CODECHECK](https://codecheck.org.uk/){target="_blank"}. Even if you don't, it would be helpful to take into account their guidelines: both initiatives emphasize that documentation of your code is key!  
 
+:::
+
+::: callout
 #### Example files
 
 See the `preprocessing_safi.qmd` and `preprocessing_safi.html` file in the `scripts` folder from the [EUR publication package example repository on Zenodo](https://doi.org/10.5281/zenodo.7956600){target="_blank"}. The .qmd file is a [Quarto](https://quarto.org/){target="_blank"} markdown document, in which R code and documentation are combined. It produces a readable html file that can also be included in the publication package. See the html file below:
@@ -104,16 +113,36 @@ Other examples you can think of:
 
 ![](fig/05_processed-data.png){width="300" alt="Provide data (either raw or processed) that were eventually analysed when preparing the article (e.g. a data file after transforming variables, after applying selection, etc.). If the raw data was analysed directly, step 3 suffices"}
 
-::: callout
+::: checklist
 #### Steps to take
+
+-   You need to provide the data files that were eventually analysed when preparing the article.
+Examples  are the data file after transforming variables and after applying selections. 
+This means that in this step you should provide the outcome file from the two previous steps: the result of the preprocessing of the raw data.
+-   If the raw data file was directly analysed, you do not need to provide any extra files in this step.
+-   Make sure all files are saved in a [sustainable file format](https://dans.knaw.nl/en/file-formats/){target="_blank"} such as .csv, and that the files are [properly named](https://doi.org/10.5281/zenodo.7551576){target="_blank"}). Save the files in the `data` folder.
+
+:::
+
+::: callout
+#### Example file
+
+See the `safi_processed-for-plotting.csv` file in the `data_output` folder from the [EUR publication package example repository on Zenodo](https://doi.org/10.5281/zenodo.7956600){target="_blank"}:
+
+![](fig/05_processed-data-example.png){width="80%" alt="Raw data from the EUR publication package example"}
+
 :::
 
 ## Analysis computer code
 
 ![](fig/06_analysis-code.png){width="300" alt="Include code describing the steps taken to process the analysis data into the results reported in the manuscript, including brief explanations of the steps in English"}
 
-::: callout
+::: checklist
 #### Steps to take
+:::
+
+::: callout
+#### Example file
 :::
 
 ::: keypoints
