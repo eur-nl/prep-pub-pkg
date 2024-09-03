@@ -153,7 +153,7 @@ Keep in mind that documentation of your code is key!
 
 See the `analysis_safi.qmd` and `analysis_safi.html` file in the `scripts` folder from the [EUR publication package example repository on Zenodo](https://doi.org/10.5281/zenodo.7956600){target="_blank"}. The .qmd file is a [Quarto](https://quarto.org/){target="_blank"} markdown document, in which R code and documentation are combined. It produces a readable html file that can also be included in the publication package. See the html file below:
 
-![](files/analysis_safi.html){width="80%" height="600" alt="Rendered html file for the preprocessing code from the EUR publication package example"}
+![](files/analyses_safi.html){width="80%" height="600" alt="Rendered html file for the preprocessing code from the EUR publication package example"}
 
 Other examples you can think of:
 
