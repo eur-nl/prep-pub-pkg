@@ -312,7 +312,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Prepare your package - II. Materials, data, code</h1>
-        <p>Last updated on 2024-08-30 |
+        <p>Last updated on 2024-09-03 |
 
         <a href="https://github.com/carpentries/prep-pub-pkg/edit/main/episodes/prep-pkg-data.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -562,19 +562,46 @@ publication package example repository on Zenodo</a>:</p>
 <div id="steps-to-take-4" class="callout-inner">
 <h3 class="callout-title">Steps to take</h3>
 <div class="callout-content">
-
+<ul><li>You should include computer code (for example syntax files from
+SPSS/JASP, Atlas.ti, Matlab, R; syntaxes of tailored software)
+describing the steps taken to process the analysis data into results in
+the manuscript. This should include brief explanations of the steps in
+English.</li>
+<li>Just as with the preprocessing computer code, for the analysis code
+it is very helpful to use tools like <a href="https://quarto.org/" target="_blank" class="external-link">Quarto</a>, <a href="https://rmarkdown.rstudio.com/" target="_blank" class="external-link">R markdown</a>, or <a href="https://jupyter.org/" target="_blank" class="external-link">Jupyter notebooks</a>.</li>
+<li>Again, it is highly recommended to have your preprocessing and
+analysis code checked for reproducibility by others, or at the least
+check guidelines from initiatives such as <a href="https://www.reprohack.org/" target="_blank" class="external-link">ReproHack</a> or <a href="https://codecheck.org.uk/" target="_blank" class="external-link">CODECHECK</a>. Keep in
+mind that documentation of your code is key!</li>
+</ul></div>
 </div>
 </div>
-</div>
-<div id="example-file-2" class="callout">
+<div id="example-files-2" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div id="example-file-2" class="callout-inner">
-<h3 class="callout-title">Example file</h3>
+<div id="example-files-2" class="callout-inner">
+<h3 class="callout-title">Example files</h3>
 <div class="callout-content">
-
-</div>
+<p>See the <code>analysis_safi.qmd</code> and
+<code>analysis_safi.html</code> file in the <code>scripts</code> folder
+from the <a href="https://doi.org/10.5281/zenodo.7956600" target="_blank" class="external-link">EUR publication package example repository on
+Zenodo</a>. The .qmd file is a <a href="https://quarto.org/" target="_blank" class="external-link">Quarto</a> markdown document, in which R code and
+documentation are combined. It produces a readable html file that can
+also be included in the publication package. See the html file
+below:</p>
+<p><embed src="files/analysis_safi.html" style="width:80.0%" alt="Rendered html file for the preprocessing code from the EUR publication package example" height="600"></embed></p>
+<p>Other examples you can think of:</p>
+<ul><li>
+<p>Descriptions of steps taken to analyse qualitative data.</p>
+<ul><li>
+<a href="https://doi.org/10.5064/F6COFREM" target="_blank" class="external-link">Zuber,
+Strach, &amp; Pérez-Chiqués (2023)</a> have shared a detailed
+description of the data coding and analysis procedure on the <a href="https://doi.org/10.5064/F6COFREM/DXNJEZ" target="_blank" class="external-link">Qualitative Data Repository</a> for their project
+consisting of interviews, participant observation, and focus
+groups.</li>
+</ul></li>
+</ul></div>
 </div>
 </div>
 <div id="keypoints1" class="callout keypoints">
@@ -650,7 +677,7 @@ any links that you are not going to use.
   "url": "https://carpentries.github.io/prep-pub-pkg/instructor/prep-pkg-data.html",
   "identifier": "https://carpentries.github.io/prep-pub-pkg/instructor/prep-pkg-data.html",
   "dateCreated": "2024-07-12",
-  "dateModified": "2024-08-30",
+  "dateModified": "2024-09-03",
   "datePublished": "2024-09-03"
 }
 
