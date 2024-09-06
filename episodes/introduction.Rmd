@@ -1,7 +1,7 @@
 ---
 title: 'Introduction'
-teaching: 10
-exercises: 2
+teaching: 20
+exercises: 1
 ---
 
 ::: questions
@@ -33,7 +33,7 @@ First and foremost, the inevitable reason to create a publication package is tha
 The conclusion that follows from the (non-exhaustive) list of guidelines and policies above is that as a researcher, you are required to clearly document your whole research process, store it in a safe place and make it publicly available whenever possible (*as open as possible and as closed as necessary*). By creating a publication package for your published research results, you will end up with a structured bundle detailing everything that is needed to verify and replicate the results published in a specific manuscript.
 
 ::: discussion
-Some questions to discuss with your peers:
+Questions to discuss with your peers:
 
 -   Which of the above policies and guidelines are familiar to you?
 
@@ -42,17 +42,38 @@ Some questions to discuss with your peers:
 -   Which extra steps do you need to take to increase compliance?
 :::
 
-### Benefits for you and your colleagues
+### Making your life easier
 
-Publication packages also yield many benefits for yourself and your direct colleagues:
+Publication packages also yield many benefits for yourself and your (direct) colleagues:
 
-**Benefits for your future self**
+::: prereq
+## Benefits for you and your colleagues
 
--   Imagine you are going to reuse your data or rerun an analysis in a week, a month, a year, or even in 10 years time. Then it is very important that you will organize and document your project thoroughly, because you will not remember all details about the project. And be aware: your past self doesn’t answer emails! Well-documented data, code and other materials help you to remember and understand all the details even many years later (but it might be useful sooner as well).
+#### Benefits for your future self
 
-**Benefits for your collaborators and for re-usability**
+Imagine you are going to reuse your data or rerun an analysis in a week, a month, a year, or even in 10 years time. Then it is very important that you will organize and document your project thoroughly, because **you will not remember all details about the project**.
 
--   Well-documented projects also help others to use the data, verify the results and build further on your findings. When you collaborate with others in a research project, good documentation and metadata will save you countless emails and meetings to explain the details about the project. This is also the case when you are planning to make your data, code and other materials available for re-use. In that case, you want your project components to be self-explanatory, in such a way that others can use it independently.
+And be aware: your past self doesn’t answer emails! Well-documented data, code and other materials help you to remember and understand all the details even many years later (but it might be useful sooner as well).
+
+#### Benefits for your collaborators and for re-usability
+
+Well-documented projects also **help others to use the data, verify the results and build further on your findings**.
+
+When you collaborate with others in a research project, good documentation and metadata will save you countless emails and meetings to explain the details about the project. This is also the case when you are planning to make your data, code and other materials available for re-use. In that case, you want your project components to be **self-explanatory**, in such a way that others can use it independently.
+
+:::
+
+::: callout
+## Video
+
+For those of you who like cringe movies, this video is a great illustration of the importance of a well-documented and archived publication package.
+
+<iframe src="https://widgets.figshare.com/articles/8061722/embed?show_title=1" width="568" height="351" allowfullscreen frameborder="0">
+
+</iframe>
+
+A data management horror story by [Karen Hanson, Alisa Surkis and Karen Yacobucci](https://doi.org/10.6084/m9.figshare.8061722.v1){target="_blank"}. This is what shouldn't happen when a researcher makes a data sharing request! Topics include storage, documentation, and file formats.
+:::
 
 ## The contents of a publication package
 
@@ -82,7 +103,9 @@ In the infographic above, the contents of a publication package as described in 
 
 :::
 
-In the second part of the workshop, we will look into the different components of a publication package in more detail. The [EUR publication package example](https://doi.org/10.5281/zenodo.7956600){target="_blank"} that you downloaded to your computer (see [data sets section on the setup page](setup.md#data-sets)) provides examples for all of the components. Additionally, in most cases you will hopefully have some components ready at hand (e.g., a data management plan) and you can immediately add it to your draft publication package.
+In the **next part of the workshop**, we will look into the different components of a publication package in more detail.
+
+The [EUR publication package example](https://doi.org/10.5281/zenodo.7956600){target="_blank"} that you downloaded to your computer (see [data sets section on the setup page](setup.md#data-sets)) provides examples for all of the components. Additionally, in most cases you will hopefully have some components ready at hand (e.g., a data management plan) and you can immediately add it to your draft publication package.
 
 ::: instructor
 Inline instructor notes can help inform instructors of timing challenges associated with the lessons. They appear in the "Instructor View"
@@ -90,6 +113,6 @@ Inline instructor notes can help inform instructors of timing challenges associa
 
 ::: keypoints
 -   Create a publication package to comply with (inter)national policies
--   Documenting research in a publication package makes your life easier
+-   Document research in a publication package to make your life easier
 -   The nine elements of a publication package include data, code, materials and documentation
 :::
