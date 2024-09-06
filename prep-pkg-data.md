@@ -159,7 +159,7 @@ Other examples you can think of:
 
 -   Descriptions of steps taken to analyse qualitative data.
 
-    -   [Zuber, Strach, & Pérez-Chiqués (2023)](https://doi.org/10.5064/F6COFREM){target="_blank"} have shared a detailed description of the data coding and analysis procedure on the [Qualitative Data Repository](https://doi.org/10.5064/F6COFREM/DXNJEZ){target="_blank"} for their project consisting of interviews, participant observation, and focus groups.
+    -   [Zuber, Strach, & Pérez-Chiqués (2023)](https://doi.org/10.5064/F6COFREM){target="_blank"} have shared a detailed description of the data coding and analysis procedure (including coded excerpts) on the [Qualitative Data Repository](https://doi.org/10.5064/F6COFREM/DXNJEZ){target="_blank"} for their project consisting of interviews, participant observation, and focus groups.
 
 :::
 
