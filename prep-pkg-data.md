@@ -19,7 +19,7 @@ Now that we have gathered all the documentation of the project, the next step is
 
 ## Materials used
 
-![](fig/02_materials.png){width="300" alt="Include instructions, procedures, the design of the experiment and stimulus materials (interview guide, questionnaires, surveys, tests) necessary to replicate the research"}
+![[Infographic](https://doi.org/10.5281/zenodo.7575566) snippet: Include instructions, procedures, the design of the experiment and stimulus materials (interview guide, questionnaires, surveys, tests) necessary to replicate the research](fig/02_materials.png){width="500" alt="Include instructions, procedures, the design of the experiment and stimulus materials (interview guide, questionnaires, surveys, tests) necessary to replicate the research"}
 
 In this step you need to include instructions, procedures, the design of the experiment and stimulus materials (interview guide, questionnaires, surveys, tests) necessary to replicate the research.
 
@@ -54,7 +54,7 @@ Other examples you can think of:
 
 ## Raw data files
 
-![](fig/03_raw-data.png){width="300" alt="Provide the most direct registration of behaviour or reactions of participants. Think of unfiltered export files of surveys, EEG measurements, recordings or transcripts. If needed, include all de-identification steps taken"}
+![[Infographic](https://doi.org/10.5281/zenodo.7575566) snippet: Provide the most direct registration of behaviour or reactions of participants. Think of unfiltered export files of surveys, EEG measurements, recordings or transcripts. If needed, include all de-identification steps taken](fig/03_raw-data.png){width="500" alt="Provide the most direct registration of behaviour or reactions of participants. Think of unfiltered export files of surveys, EEG measurements, recordings or transcripts. If needed, include all de-identification steps taken"}
 
 ::: checklist
 #### Steps to take
@@ -81,7 +81,7 @@ See the `safi_raw.csv` file in the `data` folder from the [EUR publication packa
 
 ## Preprocessing computer code
 
-![](fig/04_preprocessing-code.png){width="300" alt="Include code (such as Atlas.Ti/SPSS/JASP syntax files, R scripts, etc.) describing the steps taken to process raw data into analysis data, including brief explanations of the steps in English"}
+![[Infographic](https://doi.org/10.5281/zenodo.7575566) snippet: Include code (such as Atlas.Ti/SPSS/JASP syntax files, R scripts, etc.) describing the steps taken to process raw data into analysis data, including brief explanations of the steps in English](fig/04_preprocessing-code.png){width="500" alt="Include code (such as Atlas.Ti/SPSS/JASP syntax files, R scripts, etc.) describing the steps taken to process raw data into analysis data, including brief explanations of the steps in English"}
 
 ::: checklist
 #### Steps to take
@@ -111,7 +111,7 @@ Other examples you can think of:
 
 ## Processed data files
 
-![](fig/05_processed-data.png){width="300" alt="Provide data (either raw or processed) that were eventually analysed when preparing the article (e.g. a data file after transforming variables, after applying selection, etc.). If the raw data was analysed directly, step 3 suffices"}
+![[Infographic](https://doi.org/10.5281/zenodo.7575566) snippet: Provide data (either raw or processed) that were eventually analysed when preparing the article (e.g. a data file after transforming variables, after applying selection, etc.). If the raw data was analysed directly, step 3 suffices](fig/05_processed-data.png){width="500" alt="Provide data (either raw or processed) that were eventually analysed when preparing the article (e.g. a data file after transforming variables, after applying selection, etc.). If the raw data was analysed directly, step 3 suffices"}
 
 ::: checklist
 #### Steps to take
@@ -135,7 +135,7 @@ See the `safi_processed-for-plotting.csv` file in the `data_output` folder from 
 
 ## Analysis computer code
 
-![](fig/06_analysis-code.png){width="300" alt="Include code describing the steps taken to process the analysis data into the results reported in the manuscript, including brief explanations of the steps in English"}
+![[Infographic](https://doi.org/10.5281/zenodo.7575566) snippet: Include code describing the steps taken to process the analysis data into the results reported in the manuscript, including brief explanations of the steps in English](fig/06_analysis-code.png){width="500" alt="Include code describing the steps taken to process the analysis data into the results reported in the manuscript, including brief explanations of the steps in English"}
 
 ::: checklist
 #### Steps to take
