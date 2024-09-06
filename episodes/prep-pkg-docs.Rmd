@@ -1,7 +1,7 @@
 ---
 title: 'Prepare your package - I. Documentation'
-teaching: 10
-exercises: 2
+teaching: 30
+exercises: 1
 ---
 
 ::: questions
@@ -29,7 +29,7 @@ First, we need a place to save all the components of the publication package in 
 
 ## Data management plan
 
-![](fig/07_data-mgmt-plan.png){width="300" alt="Data management plan. Provide a copy of the most recent version of your data management plan"}
+![[Infographic](https://doi.org/10.5281/zenodo.7575566) snippet: Provide a copy of the most recent version of your data management plan](fig/07_data-mgmt-plan.png){width="500" alt="Data management plan. Provide a copy of the most recent version of your data management plan"}
 
 The first component that we will add to the package is number 7 in our [list of publication package components](introduction.Rmd##the-contents-of-a-publication-package): the data management plan.
 
@@ -52,7 +52,7 @@ See the `documentation/dmp_eur-pp_v1.pdf` file from the [EUR publication package
 
 ## Manuscript or publication
 
-![](fig/01_manuscript.png){width="300" alt="Must include a brief description of the problem definition, research design, data collection (sampling, selection and representativeness of informants) and methods used"}
+![[Infographic](https://doi.org/10.5281/zenodo.7575566) snippet: Must include a brief description of the problem definition, research design, data collection (sampling, selection and representativeness of informants) and methods used](fig/01_manuscript.png){width="500" alt="Must include a brief description of the problem definition, research design, data collection (sampling, selection and representativeness of informants) and methods used"}
 
 Let's now continue chronologically with number 1 in our [list of publication package components](introduction.Rmd##the-contents-of-a-publication-package).
 
@@ -75,13 +75,9 @@ See the `manuscript_rsos_20230401.pdf` file from the [EUR publication package ex
 ![](files/manuscript_rsos_20230401.pdf){width="80%" height="400" alt="Manuscript from the EUR publication package example"}:
 :::
 
-::: challenge
-Short challenge to work together with your peer and look at the first two elements: the DMP and the manuscript.
-:::
-
 ## Readme file
 
-![](fig/08_readme.png){width="300" alt="Provide a clear readme describing who was involved in the project, when the data was collected, which documents and files can be found where and how to interpret them"}
+![[Infographic](https://doi.org/10.5281/zenodo.7575566) snippet: Provide a clear readme describing who was involved in the project, when the data was collected, which documents and files can be found where and how to interpret them](fig/08_readme.png){width="500" alt="Provide a clear readme describing who was involved in the project, when the data was collected, which documents and files can be found where and how to interpret them"}
 
 ::: checklist
 #### Steps to take
@@ -113,20 +109,41 @@ Other examples that you can use to get started with a readme:
 -   Colleagues from Leiden University provide a [specific readme template based on the Guideline for archiving for Faculties of Behavioural and Social Sciences in the Netherlands](https://doi.org/10.5281/zenodo.7113206)
 :::
 
+::: challenge
+## README exercise
+
+Share your draft README with a colleague or with your neighbor during the workshop.
+
+-   Ask your peer to read through your README
+
+-   Can they answer the following questions based on the document:
+
+    -   Is it clear when and where the research took place?
+
+    -   Will they know where to find specific files when aiming to reproduce results?
+
+    -   Do they know what specific software to use?
+
+    -   Which improvements do they suggest to make the README as clear as possible?
+
+:::
+
 ## Ethics documentation
 
-![](fig/09_ethics-docs.png){width="300" alt="Documents related to the ethical approval (e.g. approval letter, blank consent form)"}
+![[Infographic](https://doi.org/10.5281/zenodo.7575566) snippet: Documents related to the ethical approval (e.g. approval letter, blank consent form)](fig/09_ethics-docs.png){width="500" alt="Documents related to the ethical approval (e.g. approval letter, blank consent form)"}
 
 ::: checklist
 #### Steps to take
+
 -   You should provide the documents related to the ethical approval. Think of the approval letter from the ethical committee, a blank consent form, and the ethics application text for your project.
--   Make sure the files are saved in a [sustainable file format](https://dans.knaw.nl/en/file-formats/){target="_blank"}. This can be a .pdf or .odt file. 
+-   Make sure the files are saved in a [sustainable file format](https://dans.knaw.nl/en/file-formats/){target="_blank"}. This can be a .pdf or .odt file.
 -   Provide the documents with a good file name (use the [three principles for file naming described in this presentation](https://doi.org/10.5281/zenodo.7551576){target="_blank"}) and save it in the `documentation` folder.
 
 :::
 
 ::: callout
 #### Example files
+
 See the `documentation/ethics_approval_letter.pdf` and `documentation/informed_consent_form.pdf` file from the [EUR publication package example repository on Zenodo](https://doi.org/10.5281/zenodo.7956600){target="_blank"}:
 
 ![](files/ethics_approval_letter.pdf){width="80%" height="400" alt="ethics approval letter from the EUR publication package example"}
@@ -136,5 +153,7 @@ See the `documentation/ethics_approval_letter.pdf` and `documentation/informed_c
 :::
 
 ::: keypoints
--   tbd
+-   Add sufficient documentation to the publication package in the form of a data management plan, manuscript, readme file, and ethics documentation
+-   Save the files using clear file names and in sustainable file formats
+
 :::

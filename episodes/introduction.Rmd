@@ -77,7 +77,7 @@ A data management horror story by [Karen Hanson, Alisa Surkis and Karen Yacobucc
 
 ## The contents of a publication package
 
-![Infographic summarizing what to include in a publication package, based on the Guideline for the archiving of academic research for Faculties of Behavioural and Social Sciences in the Netherlands (March 2022).](fig/202301_archiving-publication-packages.png){width="900" alt="Infographic summarizing what to include in a publication package, based on the Guideline for the archiving of academic research for Faculties of Behavioural and Social Sciences in the Netherlands (March 2022)."}
+![[Infographic](https://doi.org/10.5281/zenodo.7575566) summarizing what to include in a publication package, based on the Guideline for the archiving of academic research for Faculties of Behavioural and Social Sciences in the Netherlands (March 2022).](fig/202301_archiving-publication-packages.png){width="900" alt="Infographic summarizing what to include in a publication package, based on the Guideline for the archiving of academic research for Faculties of Behavioural and Social Sciences in the Netherlands (March 2022)."}
 
 In the infographic above, the contents of a publication package as described in the [Guideline for the archiving of academic research for Faculties of Behavioural and Social Sciences in the Netherlands](https://doi.org/10.5281/zenodo.7583831){target="_blank"} are summarized. For your convenience, we also list the components below in textual form:
 
