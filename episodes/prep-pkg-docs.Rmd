@@ -47,7 +47,7 @@ The first component that we will add to the package is number 7 in our [list of 
 
 See the `documentation/dmp_eur-pp_v1.pdf` file from the [EUR publication package example repository on Zenodo](https://doi.org/10.5281/zenodo.7956600){target="_blank"}:
 
-![](files/dmp_eur-pp_v1.pdf){width="80%" height="400" alt="Data management plan from the EUR publication package example"}
+![Figure: Data management plan from the EUR publication package example](files/dmp_eur-pp_v1.pdf){width="80%" height="400" alt="Data management plan from the EUR publication package example"}
 :::
 
 ## Manuscript or publication
@@ -72,7 +72,8 @@ Let's now continue chronologically with number 1 in our [list of publication pac
 
 See the `manuscript_rsos_20230401.pdf` file from the [EUR publication package example repository on Zenodo](https://doi.org/10.5281/zenodo.7956600){target="_blank"} (note that this is a mock publication)
 
-![](files/manuscript_rsos_20230401.pdf){width="80%" height="400" alt="Manuscript from the EUR publication package example"}:
+![Figure: Manuscript from the EUR publication package example](files/manuscript_rsos_20230401.pdf){width="80%" height="400" alt="Manuscript from the EUR publication package example"}
+
 :::
 
 ## Readme file
@@ -100,7 +101,7 @@ See the `manuscript_rsos_20230401.pdf` file from the [EUR publication package ex
 
 See the `README.txt` file from the [EUR publication package example repository on Zenodo](https://doi.org/10.5281/zenodo.7956600){target="_blank"}:
 
-![](files/README.txt){width="80%" height="400" alt="README file from the EUR publication package example"}
+![Figure: README file from the EUR publication package example](files/README.txt){width="80%" height="400" alt="README file from the EUR publication package example"}
 
 Other examples that you can use to get started with a readme:
 
@@ -146,9 +147,9 @@ Share your draft README with a colleague or with your neighbor during the worksh
 
 See the `documentation/ethics_approval_letter.pdf` and `documentation/informed_consent_form.pdf` file from the [EUR publication package example repository on Zenodo](https://doi.org/10.5281/zenodo.7956600){target="_blank"}:
 
-![](files/ethics_approval_letter.pdf){width="80%" height="400" alt="ethics approval letter from the EUR publication package example"}
+![Figure: Ethics approval letter from the EUR publication package example](files/ethics_approval_letter.pdf){width="80%" height="400" alt="Ethics approval letter from the EUR publication package example"}
 
-![](files/informed_consent_form.pdf){width="80%" height="400" alt="blank consent form from the EUR publication package example"}
+![Figure: Blank consent form from the EUR publication package example](files/informed_consent_form.pdf){width="80%" height="400" alt="Blank consent form from the EUR publication package example"}
 
 :::
 
