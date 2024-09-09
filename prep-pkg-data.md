@@ -1,7 +1,7 @@
 ---
 title: 'Prepare your package - II. Materials, data, code'
-teaching: 10
-exercises: 2
+teaching: 50
+exercises: 1
 ---
 
 ::: questions
@@ -29,6 +29,7 @@ In this step you need to include instructions, procedures, the design of the exp
 -   According to the instructions in the [Guideline for the archiving of academic research for Faculties of Behavioural and Social Sciences in the Netherlands](https://doi.org/10.5281/zenodo.7583831){target="_blank"} (p.8) you should include:
     -   "The instructions, procedures, the design of the experiment and stimulus materials (interview guide, questionnaires, surveys, tests) that can reasonably be deemed necessary in order to replicate the research. The materials must be available in the language in which the research was conducted. The publication package must be in English."
 -   Make sure all files are saved in a [sustainable file format](https://dans.knaw.nl/en/file-formats/){target="_blank"}, and that the files are [properly named](https://doi.org/10.5281/zenodo.7551576){target="_blank"}). In case you work with sub folders, save the files in the `materials` folder.
+-   Make sure that all files and procedures are clearly described and self-explanatory
 
 :::
 
@@ -37,7 +38,7 @@ In this step you need to include instructions, procedures, the design of the exp
 
 See the codebook and the questionnaire in the `materials` folder from the [EUR publication package example repository on Zenodo](https://doi.org/10.5281/zenodo.7956600){target="_blank"}:
 
-![](fig/02_materials-example-codebook.png){width="900" alt="Codebook from the EUR publication package example"}
+![Figure: Codebook from the EUR publication package example](fig/02_materials-example-codebook.png){width="900" alt="Codebook from the EUR publication package example"}
 
 Other examples you can think of:
 
@@ -49,7 +50,8 @@ Other examples you can think of:
 
 -   Stimulus materials for experiments:
 
-    -   
+    -   TBA
+
 :::
 
 ## Raw data files
@@ -67,7 +69,7 @@ Other examples you can think of:
         -   Notes taken within the framework of qualitative research or research using source or media material
     -   In case you de-identified the data, you also need to include documentation of the steps taken to de-identify the data. Note that only personal data such as contact details or other variables not needed for the actual research should be removed for de-identification. All personal data that is part of the research data should be retained in the publication package for archiving (later you should of course remove identifiers before publication of the data in a public repository).
 -   If the raw data files have been accessibly stored in an external data repository (such as a [DANS](https://dans.knaw.nl/en/){target="_blank"} Data Station), making reference to the files in this archive will suffice.
--   Make sure all files are saved in a [sustainable file format](https://dans.knaw.nl/en/file-formats/){target="_blank"} such as .csv, and that the files are [properly named](https://doi.org/10.5281/zenodo.7551576){target="_blank"}). Save the files in the `data` folder.
+-   Make sure all files are saved in a [sustainable file format](https://dans.knaw.nl/en/file-formats/){target="_blank"} such as .csv, and that the files and variables are [properly named](https://doi.org/10.5281/zenodo.7551576){target="_blank"}) and clearly described. Save the files in the `data` folder.
 
 :::
 
@@ -76,8 +78,24 @@ Other examples you can think of:
 
 See the `safi_raw.csv` file in the `data` folder from the [EUR publication package example repository on Zenodo](https://doi.org/10.5281/zenodo.7956600){target="_blank"}:
 
-![](fig/03_raw-data-example.png){width="80%" alt="Raw data from the EUR publication package example"}
+![Figure: Raw data from the EUR publication package example](fig/03_raw-data-example.png){width="80%" alt="Raw data from the EUR publication package example"}
 :::
+
+::: challenge
+## Data exercise
+
+Share a (de-identified) copy of your raw data file with a colleague or with your neighbor during the workshop.
+
+-   Can they open the file without the need for any specialized software?
+
+-   Is it clear to them what all the variables are? 
+
+    -   If not, is there another file, such as a codebook or README in which the variable names are clearly explained?
+
+-   Which improvements do they suggest to make the data file as clear as possible?
+
+:::
+
 
 ## Preprocessing computer code
 
@@ -89,7 +107,8 @@ See the `safi_raw.csv` file in the `data` folder from the [EUR publication packa
 -   You should include computer code (for example Atlas.ti, SPSS/JASP syntax file, MATLAB analysis scripts, R code) describing the steps taken to process the raw data into analysis data. 
 This should include brief explanations of the steps in English, for example a brief description of the steps taken in the qualitative analysis of primary research data (themes, domains, taxonomies, components).
 -   There are many ways to include computer code in your publication package, depending on the analysis tools you use. 
-Using tools like [Quarto](https://quarto.org/){target="_blank"}, [R markdown](https://rmarkdown.rstudio.com/){target="_blank"}, or [Jupyter notebooks](https://jupyter.org/){target="_blank"} is a great way to share code and narrative text in one document.
+Tools like [Quarto](https://quarto.org/){target="_blank"}, [R markdown](https://rmarkdown.rstudio.com/){target="_blank"}, or [Jupyter notebooks](https://jupyter.org/){target="_blank"} are a great way to share code and narrative text in one document. 
+This will make it much easier to clearly describe the steps that were taken to process the data.
 -   A bonus option would be to have your preprocessing and analysis code checked for reproducibility by others. You can consider submitting your data and code to [ReproHack](https://www.reprohack.org/){target="_blank"} or [CODECHECK](https://codecheck.org.uk/){target="_blank"}. Even if you don't, it would be helpful to take into account their guidelines: both initiatives emphasize that documentation of your code is key!  
 
 :::
@@ -99,7 +118,7 @@ Using tools like [Quarto](https://quarto.org/){target="_blank"}, [R markdown](ht
 
 See the `preprocessing_safi.qmd` and `preprocessing_safi.html` file in the `scripts` folder from the [EUR publication package example repository on Zenodo](https://doi.org/10.5281/zenodo.7956600){target="_blank"}. The .qmd file is a [Quarto](https://quarto.org/){target="_blank"} markdown document, in which R code and documentation are combined. It produces a readable html file that can also be included in the publication package. See the html file below:
 
-![](files/preprocessing_safi.html){width="80%" height="600" alt="Rendered html file for the preprocessing code from the EUR publication package example"}
+![Figure: Rendered html file for the preprocessing code from the EUR publication package example](files/preprocessing_safi.html){width="80%" height="600" alt="Rendered html file for the preprocessing code from the EUR publication package example"}
 
 Other examples you can think of:
 
@@ -129,7 +148,7 @@ This means that in this step you should provide the outcome file from the two pr
 
 See the `safi_processed-for-plotting.csv` file in the `data_output` folder from the [EUR publication package example repository on Zenodo](https://doi.org/10.5281/zenodo.7956600){target="_blank"}:
 
-![](fig/05_processed-data-example.png){width="80%" alt="Raw data from the EUR publication package example"}
+![Figure: Processed data from the EUR publication package example](fig/05_processed-data-example.png){width="80%" alt="Processed data from the EUR publication package example"}
 
 :::
 
@@ -153,7 +172,7 @@ Keep in mind that documentation of your code is key!
 
 See the `analysis_safi.qmd` and `analysis_safi.html` file in the `scripts` folder from the [EUR publication package example repository on Zenodo](https://doi.org/10.5281/zenodo.7956600){target="_blank"}. The .qmd file is a [Quarto](https://quarto.org/){target="_blank"} markdown document, in which R code and documentation are combined. It produces a readable html file that can also be included in the publication package. See the html file below:
 
-![](files/analyses_safi.html){width="80%" height="600" alt="Rendered html file for the preprocessing code from the EUR publication package example"}
+![Figure: Rendered html file for the preprocessing code from the EUR publication package example](files/analyses_safi.html){width="80%" height="600" alt="Rendered html file for the preprocessing code from the EUR publication package example"}
 
 Other examples you can think of:
 
@@ -163,6 +182,24 @@ Other examples you can think of:
 
 :::
 
+::: challenge
+## Code exercise
+
+Share a copy of your analysis computer code or syntax with a colleague or with your neighbor during the workshop.
+
+-   Can they open the file without the need for any specialized software?
+
+-   Is it clear to them what is needed to analyze the data? 
+
+-   Bonus question: are they able to rerun your analysis independently?
+
+-   Which improvements do they suggest to make the data file as clear as possible?
+
+:::
+
+
 ::: keypoints
--   tbd
+-   Include materials, data and code that is needed to reproduce or replicate your research in the publication package 
+-   Describe data and code clearly, to make sure that everything is self-explanatory
+-   Save the files using clear file names and in sustainable file formats
 :::
