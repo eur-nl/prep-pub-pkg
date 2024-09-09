@@ -118,11 +118,11 @@
   Prepare your publication package
 </div>
 
-<aside class="col-md-12 lesson-progress"><div style="width: 68%" class="percentage">
-    68%
+<aside class="col-md-12 lesson-progress"><div style="width: 45%" class="percentage">
+    45%
   </div>
   <div class="progress incubator">
-    <div class="progress-bar incubator" role="progressbar" style="width: 68%" aria-valuenow="68" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar incubator" role="progressbar" style="width: 45%" aria-valuenow="45" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
     </div>
   </div>
 </aside><div class="container">
@@ -312,13 +312,13 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Prepare your package - II. Materials, data, code</h1>
-        <p>Last updated on 2024-09-06 |
+        <p>Last updated on 2024-09-09 |
 
         <a href="https://github.com/carpentries/prep-pub-pkg/edit/main/episodes/prep-pkg-data.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
 
 
-        <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 12 minutes</p>
+        <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 51 minutes</p>
 
         <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
@@ -388,6 +388,8 @@ English.”</li>
 file format</a>, and that the files are <a href="https://doi.org/10.5281/zenodo.7551576" target="_blank" class="external-link">properly
 named</a>). In case you work with sub folders, save the files in the
 <code>materials</code> folder.</li>
+<li>Make sure that all files and procedures are clearly described and
+self-explanatory</li>
 </ul></div>
 </div>
 </div>
@@ -401,7 +403,9 @@ named</a>). In case you work with sub folders, save the files in the
 <p>See the codebook and the questionnaire in the <code>materials</code>
 folder from the <a href="https://doi.org/10.5281/zenodo.7956600" target="_blank" class="external-link">EUR publication package example repository on
 Zenodo</a>:</p>
-<figure><img src="../fig/02_materials-example-codebook.png" alt="Codebook from the EUR publication package example" width="900" class="figure mx-auto d-block"></figure><p>Other examples you can think of:</p>
+<figure><img src="../fig/02_materials-example-codebook.png" width="900" alt="Codebook from the EUR publication package example" class="figure mx-auto d-block"><div class="figcaption">Figure: Codebook from the EUR publication
+package example</div>
+</figure><p>Other examples you can think of:</p>
 <ul><li>
 <p>Protocols for interviews or focus groups.</p>
 <ul><li><p>The <a href="https://doi.org/10.17605/OSF.IO/E9U8T" target="_blank" class="external-link">SOPs4RI</a> project has made the protocol for their
@@ -411,8 +415,8 @@ protocol on the <a href="https://lifesciences.datastations.nl/file.xhtml?fileId=
 </ul></li>
 <li>
 <p>Stimulus materials for experiments:</p>
-<ul><li>
-</li></ul></li>
+<ul><li>TBA</li>
+</ul></li>
 </ul></div>
 </div>
 </div>
@@ -460,8 +464,9 @@ identifiers before publication of the data in a public repository).</li>
 data repository (such as a <a href="https://dans.knaw.nl/en/" target="_blank" class="external-link">DANS</a> Data Station), making reference to the files in
 this archive will suffice.</li>
 <li>Make sure all files are saved in a <a href="https://dans.knaw.nl/en/file-formats/" target="_blank" class="external-link">sustainable
-file format</a> such as .csv, and that the files are <a href="https://doi.org/10.5281/zenodo.7551576" target="_blank" class="external-link">properly
-named</a>). Save the files in the <code>data</code> folder.</li>
+file format</a> such as .csv, and that the files and variables are <a href="https://doi.org/10.5281/zenodo.7551576" target="_blank" class="external-link">properly
+named</a>) and clearly described. Save the files in the
+<code>data</code> folder.</li>
 </ul></div>
 </div>
 </div>
@@ -475,7 +480,30 @@ named</a>). Save the files in the <code>data</code> folder.</li>
 <p>See the <code>safi_raw.csv</code> file in the <code>data</code>
 folder from the <a href="https://doi.org/10.5281/zenodo.7956600" target="_blank" class="external-link">EUR publication package example repository on
 Zenodo</a>:</p>
-<figure><img src="../fig/03_raw-data-example.png" style="width:80.0%" alt="Raw data from the EUR publication package example" class="figure mx-auto d-block"></figure></div>
+<figure><img src="../fig/03_raw-data-example.png" style="width:80.0%" alt="Raw data from the EUR publication package example" class="figure mx-auto d-block"><div class="figcaption">Figure: Raw data from the EUR publication
+package example</div>
+</figure></div>
+</div>
+</div>
+<div id="data-exercise" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="data-exercise" class="callout-inner">
+<h3 class="callout-title">Data exercise</h3>
+<div class="callout-content">
+<p>Share a (de-identified) copy of your raw data file with a colleague
+or with your neighbor during the workshop.</p>
+<ul><li><p>Can they open the file without the need for any specialized
+software?</p></li>
+<li>
+<p>Is it clear to them what all the variables are?</p>
+<ul><li>If not, is there another file, such as a codebook or README in which
+the variable names are clearly explained?</li>
+</ul></li>
+<li><p>Which improvements do they suggest to make the data file as clear
+as possible?</p></li>
+</ul></div>
 </div>
 </div>
 </section><section><h2 class="section-heading" id="preprocessing-computer-code">Preprocessing computer code<a class="anchor" aria-label="anchor" href="#preprocessing-computer-code"></a></h2>
@@ -498,9 +526,11 @@ explanations of the steps in English, for example a brief description of
 the steps taken in the qualitative analysis of primary research data
 (themes, domains, taxonomies, components).</li>
 <li>There are many ways to include computer code in your publication
-package, depending on the analysis tools you use. Using tools like <a href="https://quarto.org/" target="_blank" class="external-link">Quarto</a>, <a href="https://rmarkdown.rstudio.com/" target="_blank" class="external-link">R markdown</a>, or
-<a href="https://jupyter.org/" target="_blank" class="external-link">Jupyter notebooks</a> is
-a great way to share code and narrative text in one document.</li>
+package, depending on the analysis tools you use. Tools like <a href="https://quarto.org/" target="_blank" class="external-link">Quarto</a>, <a href="https://rmarkdown.rstudio.com/" target="_blank" class="external-link">R markdown</a>, or
+<a href="https://jupyter.org/" target="_blank" class="external-link">Jupyter notebooks</a> are
+a great way to share code and narrative text in one document. This will
+make it much easier to clearly describe the steps that were taken to
+process the data.</li>
 <li>A bonus option would be to have your preprocessing and analysis code
 checked for reproducibility by others. You can consider submitting your
 data and code to <a href="https://www.reprohack.org/" target="_blank" class="external-link">ReproHack</a> or <a href="https://codecheck.org.uk/" target="_blank" class="external-link">CODECHECK</a>. Even if you don’t, it would be helpful to
@@ -523,7 +553,10 @@ Zenodo</a>. The .qmd file is a <a href="https://quarto.org/" target="_blank" cla
 documentation are combined. It produces a readable html file that can
 also be included in the publication package. See the html file
 below:</p>
-<p><embed src="files/preprocessing_safi.html" style="width:80.0%" alt="Rendered html file for the preprocessing code from the EUR publication package example" height="600"></embed></p>
+<div class="float">
+<embed src="files/preprocessing_safi.html" style="width:80.0%" height="600"></embed><div class="figcaption">Figure: Rendered html file for the preprocessing
+code from the EUR publication package example</div>
+</div>
 <p>Other examples you can think of:</p>
 <ul><li>
 <p>Descriptions of steps taken to process qualitative data.</p>
@@ -573,7 +606,9 @@ named</a>). Save the files in the <code>data</code> folder.</li>
 <p>See the <code>safi_processed-for-plotting.csv</code> file in the
 <code>data_output</code> folder from the <a href="https://doi.org/10.5281/zenodo.7956600" target="_blank" class="external-link">EUR
 publication package example repository on Zenodo</a>:</p>
-<figure><img src="../fig/05_processed-data-example.png" style="width:80.0%" alt="Raw data from the EUR publication package example" class="figure mx-auto d-block"></figure></div>
+<figure><img src="../fig/05_processed-data-example.png" style="width:80.0%" alt="Processed data from the EUR publication package example" class="figure mx-auto d-block"><div class="figcaption">Figure: Processed data from the EUR publication
+package example</div>
+</figure></div>
 </div>
 </div>
 </section><section><h2 class="section-heading" id="analysis-computer-code">Analysis computer code<a class="anchor" aria-label="anchor" href="#analysis-computer-code"></a></h2>
@@ -617,7 +652,10 @@ Zenodo</a>. The .qmd file is a <a href="https://quarto.org/" target="_blank" cla
 documentation are combined. It produces a readable html file that can
 also be included in the publication package. See the html file
 below:</p>
-<p><embed src="files/analyses_safi.html" style="width:80.0%" alt="Rendered html file for the preprocessing code from the EUR publication package example" height="600"></embed></p>
+<div class="float">
+<embed src="files/analyses_safi.html" style="width:80.0%" height="600"></embed><div class="figcaption">Figure: Rendered html file for the preprocessing
+code from the EUR publication package example</div>
+</div>
 <p>Other examples you can think of:</p>
 <ul><li>
 <p>Descriptions of steps taken to analyse qualitative data.</p>
@@ -632,6 +670,25 @@ groups.</li>
 </ul></div>
 </div>
 </div>
+<div id="code-exercise" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="code-exercise" class="callout-inner">
+<h3 class="callout-title">Code exercise</h3>
+<div class="callout-content">
+<p>Share a copy of your analysis computer code or syntax with a
+colleague or with your neighbor during the workshop.</p>
+<ul><li><p>Can they open the file without the need for any specialized
+software?</p></li>
+<li><p>Is it clear to them what is needed to analyze the data?</p></li>
+<li><p>Bonus question: are they able to rerun your analysis
+independently?</p></li>
+<li><p>Which improvements do they suggest to make the data file as clear
+as possible?</p></li>
+</ul></div>
+</div>
+</div>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -639,7 +696,12 @@ groups.</li>
 <div class="callout-inner">
 <h3 class="callout-title">Key Points</h3>
 <div class="callout-content">
-<ul><li>tbd</li>
+<ul><li>Include materials, data and code that is needed to reproduce or
+replicate your research in the publication package</li>
+<li>Describe data and code clearly, to make sure that everything is
+self-explanatory</li>
+<li>Save the files using clear file names and in sustainable file
+formats</li>
 </ul></div>
 </div>
 </div>
@@ -705,8 +767,8 @@ any links that you are not going to use.
   "url": "https://carpentries.github.io/prep-pub-pkg/instructor/prep-pkg-data.html",
   "identifier": "https://carpentries.github.io/prep-pub-pkg/instructor/prep-pkg-data.html",
   "dateCreated": "2024-07-12",
-  "dateModified": "2024-09-06",
-  "datePublished": "2024-09-06"
+  "dateModified": "2024-09-09",
+  "datePublished": "2024-09-09"
 }
 
   </script><script>
