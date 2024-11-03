@@ -13,7 +13,16 @@
     <loc>https://carpentries.github.io/prep-pub-pkg/aio.html</loc>
   </url>
   <url>
+    <loc>https://carpentries.github.io/prep-pub-pkg/analysis-code.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries.github.io/prep-pub-pkg/archive-share-pkg.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/prep-pub-pkg/dmp.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/prep-pub-pkg/ethics.html</loc>
   </url>
   <url>
     <loc>https://carpentries.github.io/prep-pub-pkg/files/analyses_safi.html</loc>
@@ -40,7 +49,16 @@
     <loc>https://carpentries.github.io/prep-pub-pkg/instructor/aio.html</loc>
   </url>
   <url>
+    <loc>https://carpentries.github.io/prep-pub-pkg/instructor/analysis-code.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries.github.io/prep-pub-pkg/instructor/archive-share-pkg.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/prep-pub-pkg/instructor/dmp.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/prep-pub-pkg/instructor/ethics.html</loc>
   </url>
   <url>
     <loc>https://carpentries.github.io/prep-pub-pkg/instructor/images.html</loc>
@@ -58,6 +76,12 @@
     <loc>https://carpentries.github.io/prep-pub-pkg/instructor/key-points.html</loc>
   </url>
   <url>
+    <loc>https://carpentries.github.io/prep-pub-pkg/instructor/manuscript.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/prep-pub-pkg/instructor/materials.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries.github.io/prep-pub-pkg/instructor/prep-pkg-data.html</loc>
   </url>
   <url>
@@ -67,7 +91,19 @@
     <loc>https://carpentries.github.io/prep-pub-pkg/instructor/prep-pkg.html</loc>
   </url>
   <url>
+    <loc>https://carpentries.github.io/prep-pub-pkg/instructor/preproc-code.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/prep-pub-pkg/instructor/processed-data.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries.github.io/prep-pub-pkg/instructor/profiles.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/prep-pub-pkg/instructor/raw-data.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/prep-pub-pkg/instructor/readme.html</loc>
   </url>
   <url>
     <loc>https://carpentries.github.io/prep-pub-pkg/instructor/reference.html</loc>
@@ -82,6 +118,12 @@
     <loc>https://carpentries.github.io/prep-pub-pkg/key-points.html</loc>
   </url>
   <url>
+    <loc>https://carpentries.github.io/prep-pub-pkg/manuscript.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/prep-pub-pkg/materials.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries.github.io/prep-pub-pkg/prep-pkg-data.html</loc>
   </url>
   <url>
@@ -91,7 +133,19 @@
     <loc>https://carpentries.github.io/prep-pub-pkg/prep-pkg.html</loc>
   </url>
   <url>
+    <loc>https://carpentries.github.io/prep-pub-pkg/preproc-code.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/prep-pub-pkg/processed-data.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries.github.io/prep-pub-pkg/profiles.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/prep-pub-pkg/raw-data.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries.github.io/prep-pub-pkg/readme.html</loc>
   </url>
   <url>
     <loc>https://carpentries.github.io/prep-pub-pkg/reference.html</loc>
