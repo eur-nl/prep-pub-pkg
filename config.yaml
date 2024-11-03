@@ -61,7 +61,16 @@ contact: 'e.klapwijk@essb.eur.nl'
 episodes:
 - introduction.Rmd
 - prep-pkg-docs.Rmd
+- dmp.Rmd
+- manuscript.Rmd
+- readme.Rmd
+- ethics.Rmd
 - prep-pkg-data.Rmd
+- materials.Rmd
+- raw-data.Rmd
+- preproc-code.Rmd
+- processed-data.Rmd
+- analysis-code.Rmd
 - archive-share-pkg.Rmd
 
 # Information for Learners
