@@ -3,7 +3,7 @@ site: sandpaper::sandpaper_site
 bibliography: references.bib
 ---
 
-This is a new lesson built with [The Carpentries Workbench](https://carpentries.github.io/sandpaper-docs){target="_blank"}. This workshop is currently (Summer 2024) under construction. The first editions of the workshop will be held on 12 and 28 November 2024 (see [registration options](https://www.eur.nl/en/egsh/course/prepare-your-publication-package){target="_blank"}).
+This is a new lesson built with [The Carpentries Workbench](https://carpentries.github.io/sandpaper-docs){target="_blank"}. This workshop is currently (Summer 2024) under construction. The first editions of the workshop will be held on 12 and 21 November 2024 (see [registration options](https://www.eur.nl/en/egsh/course/prepare-your-publication-package){target="_blank"}).
 
 ## Welcome
 
