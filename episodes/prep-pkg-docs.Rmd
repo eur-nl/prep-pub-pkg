@@ -24,7 +24,7 @@ First, we need a place to save all the components of the publication package in 
 #### Steps to take
 
 -   Create a folder with a clear name for the research project (use the [three principles for file naming described in this presentation](https://doi.org/10.5281/zenodo.7551576){target="_blank"})
--   Optionally, you can create a small folder structure with sub folders if you prefer (for exampl, such as used in the [EUR publication package example](https://doi.org/10.5281/zenodo.7956600){target="_blank"})
+-   Optionally, you can create a small folder structure with sub folders if you prefer (for example, such as used in the [EUR publication package example](https://doi.org/10.5281/zenodo.7956600){target="_blank"})
 :::
 
 

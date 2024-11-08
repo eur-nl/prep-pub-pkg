@@ -19,7 +19,7 @@ Now that we have gathered all the documentation of the project, the next step is
 
 
 ::: keypoints
--   Include materials, data and code that is needed to reproduce or replicate your research in the publication package 
+-   Include materials, data and code that are needed to reproduce or replicate your research in the publication package 
 -   Describe data and code clearly, to make sure that everything is self-explanatory
 -   Save the files using clear file names and in sustainable file formats
 :::
