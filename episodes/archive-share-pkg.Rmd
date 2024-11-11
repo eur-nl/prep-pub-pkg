@@ -42,7 +42,7 @@ At Erasmus University Rotterdam you can archive your publication package for the
 
 Archiving your package internally is important. But to make it as easy as possible for others to verify your results, you should also publish most parts of your publication package on a public data repository. This is in line with the [guidelines and policies](introduction.qmd#guidelines-and-policies) mentioned in the introduction, such as the Netherlands Code of Conduct for Research Integrity.
 
-Keep in mind the following considerations for the possibility of publishing different components of the publication package:
+Keep in mind the following considerations for the possibility of publishing different components of the publication package (see the [infographic](https://doi.org/10.5281/zenodo.7575566){target="_blank"} for an overview of the components):
 
 ::: checklist
 -   **Data management plan**
