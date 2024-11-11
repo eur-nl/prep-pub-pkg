@@ -13,7 +13,7 @@ exercises: 0
 
 :::
 
-![[Infographic](https://doi.org/10.5281/zenodo.7575566) snippet: Must include a brief description of the problem definition, research design, data collection (sampling, selection and representativeness of informants) and methods used](fig/01_manuscript.png){width="500" alt="Must include a brief description of the problem definition, research design, data collection (sampling, selection and representativeness of informants) and methods used"}
+![[Infographic](https://doi.org/10.5281/zenodo.7575566){target="_blank"} snippet: Must include a brief description of the problem definition, research design, data collection (sampling, selection and representativeness of informants) and methods used](fig/01_manuscript.png){width="500" alt="Must include a brief description of the problem definition, research design, data collection (sampling, selection and representativeness of informants) and methods used"}
 
 Let's now continue chronologically with number 1 in our [list of publication package components](introduction.Rmd##the-contents-of-a-publication-package).
 
