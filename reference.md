@@ -14,6 +14,8 @@ Hanzon, C. A. (2019). Leren van herhaald beroep in de JeugdzorgPlus [Dataset]. D
 
 Hoogsteder, M. H. H. (2020). Samen Gezond Groot—Optimalisering van de leefstijladvisering in de JGZ 0-4 [Dataset]. DANS Data Station Life Sciences. <https://doi.org/10.17026/dans-2c6-4rfd>
 
+Jastrzab, L., Koldewyn, K., & Cross, E. S. (2024). *Gamebots*. <https://osf.io/t4apv/>
+
 Klapwijk, E. (2023, January 19). Best practices for documenting and organizing research projects. Zenodo. <https://doi.org/10.5281/zenodo.7551576>
 
 Klapwijk, E., Sunami, N., Mania, J., Lushaj, B., & Volkova, A. (2023). EUR publication package example [Data set]. Zenodo. <https://doi.org/10.5281/zenodo.7956600>

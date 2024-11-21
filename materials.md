@@ -47,7 +47,7 @@ Other examples you can think of:
 
 -   Stimulus materials for experiments:
 
-    -   TBA
+    -   The [Gamebots project](https://osf.io/t4apv/){target="_blank"} has shared [their experimental stimuli](https://osf.io/49sn6){target="_blank"} used in [Jastrzab et al. (2024)](https://doi.org/10.1016/j.isci.2024.110070){target="_blank"}, including videos of different robots as game-partners in a Rock-Paper-Scissors game, on the Open Science Framework. 
 
 :::
 
