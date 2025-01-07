@@ -107,6 +107,31 @@ In the **next part of the workshop**, we will look into the different components
 
 The [EUR publication package example](https://doi.org/10.5281/zenodo.7956600){target="_blank"} that you downloaded to your computer (see [data sets section on the setup page](setup.md#data-sets)) provides examples for all of the components. Additionally, in most cases you will hopefully have some components ready at hand (e.g., a data management plan) and you can immediately add it to your draft publication package.
 
+::: callout
+### Publication packages and related terms
+In this course, we use the term *publication package* following the description in the [Guideline for the archiving of academic research for Faculties of Behavioural and Social Sciences in the Netherlands](https://doi.org/10.5281/zenodo.7583831){target="_blank"}.  
+
+In other places, you might read about similar concepts such as *archival packages* or *replication packages*. For some, the term ***publication*** *packages*, might give the (false) impression that the package itself should always be published. 
+
+To avoid confusion, we will briefly describe similar terminology here. Note that there is quite some overlap here and there are currently no universally accepted definitions.  
+
+-   **publication package**
+    -   package consisting of all data, materials and information that are needed to replicate, reproduce, and assess the published research results of a given publication. Called *publication* package because it is attached to a specific publication (journal article, book chapter, thesis chapter). Package does not necessarily need to be published in full, can be archived internally as well.
+    
+-   **archival package**
+    -   similar to a publication package, an archival package usually includes all data, materials and information related to a research project (might relate to more than one publication). The main purpose is to store data and materials for audits and verification of scientific integrity. The archival package is typically stored on university servers for the long-term (>10 years) and not accessible (except for group members and in case of audits or emergency). 
+    
+-   **replication package**
+    -   the primary goal of a replication package is to provide all data, code and materials to replicate or reproduce the results of a given publication. This term is most prominently used in the field of economics and econometrics. The Econometric Society provides a [comprehensive guideline](https://www.econometricsociety.org/publications/es-data-editor-website/package){target="_blank"} on their website. These replication packages are also published publicly online in their [Zenodo community](https://zenodo.org/communities/es-replication-repository/records){target="_blank"}.
+  
+-   **archiving versus publishing**
+    -   the process of *archiving* publication packages is different from publishing. Archiving refers to securely depositing data, in a fixed state, in a location that is not accessible to the public (such as an internal university server). Archiving often happens for data that are confidential, and is usually done for verification purposes.
+    -   *publishing* (parts of) a publication package refers to depositing curated data in a public repository that allows others to view, access and download your data. A license should be added to make clear under which conditions the data may be re-used. Repositories usually also provide a versioning system, making it possible to update your materials.
+    -   see also the [chapter about archiving and sharing your package](archive-share-pkg.Rmd) for more information.
+
+:::
+
+
 ::: instructor
 Inline instructor notes can help inform instructors of timing challenges associated with the lessons. They appear in the "Instructor View"
 :::
