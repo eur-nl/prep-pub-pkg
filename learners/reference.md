@@ -26,4 +26,6 @@ Plomp, W., & Mink, J.-W. (2022). README template for publication packages V1.0 -
 
 Sørensen, M. P., Mejlgaard, N., Ravn, T., Charitidis, C. A., Marusic, A., Buljan, I., Roje, R., Kavouras, P., Elizondo, A. R., & Kaltenbrunner, W. (2019). Focus group interviews (WP5). <https://doi.org/10.17605/OSF.IO/E9U8T>
 
+Verburg, M., Braukmann, R., & Mahabier, W. (2023). Making Qualitative Data Reusable - A Short Guidebook For Researchers And Data Stewards Working With Qualitative Data (Version 2). Zenodo. <https://doi.org/10.5281/zenodo.8160880>
+
 Zuber, K., Strach, P., & Pérez-Chiqués, E. (2023). Data for: “Trickle-Down Burdens: The Effect of Provider Burdens on Clients’ Experience” [Dataset]. QDR Main Collection. <https://doi.org/10.5064/F6COFREM>
