@@ -1,22 +1,40 @@
-# This template CITATION.cff file was generated with cffinit.
-# Visit https://bit.ly/cffinit to replace its contents
-# with information about your lesson.
-# Remember to update this file periodically, 
-# ensuring that the author list and other fields remain accurate.
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: FIXME
+title: Prepare your publication package
 message: >-
   Please cite this lesson using the information in this file
   when you refer to it in publications, and/or if you
   re-use, adapt, or expand on the content in your own
   training material.
-type: dataset
+type: software
 authors:
-  - given-names: FIXME
-    family-names: FIXME
+  - given-names: Eduard
+    family-names: Klapwijk
+    affiliation: Erasmus University Rotterdam
+    orcid: 'https://orcid.org/0000-0002-8936-0365'
+  - given-names: Mark
+    family-names: Mulder
+    affiliation: Erasmus University Rotterdam
+    orcid: 'https://orcid.org/0009-0000-3628-4787'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.14626695
+    description: The Zenodo version of the GitHub repository
 abstract: >-
-  FIXME Replace this with a short abstract describing the
-  lesson, e.g. its target audience and main intended
-  learning objectives.
+  In this workshop, we will dive into the different
+  components of a publication package by looking at an
+  example package. After completing this course, you will
+  have created a first version of a publication package for
+  your own research project and you will be equipped with
+  the skills and knowledge needed to finish the package
+  independently.
+keywords:
+  - research data management
+  - publication package
+  - archival package
+  - replication package
+  - research integrity
+  - reproducibility
 license: CC-BY-4.0
