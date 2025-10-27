@@ -27,13 +27,13 @@ life_cycle: 'alpha'
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/eduardklap/prep-pub-pkg'
+source: 'https://github.com/eur-nl/prep-pub-pkg'
 
 # Default branch of your lesson
 branch: 'main'
 
 # Who to contact if there are any issues
-contact: 'e.klapwijk@essb.eur.nl'
+contact: 'mulder@essb.eur.nl'
 
 # Navigation ------------------------------------------------
 #
