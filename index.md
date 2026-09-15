@@ -7,7 +7,7 @@ This is a new lesson built with [The Carpentries Workbench](https://carpentries.
 
 ## Welcome
 
-Welcome to the online materials for the *Prepare your publication package* workshop! This course is offered at the [Erasmus Graduate School of Social Sciences and the Humanities (EGSH)](https://www.eur.nl/en/egsh/){target="_blank"} at [Erasmus University Rotterdam](https://www.eur.nl/){target="_blank"} in the Netherlands. But these online materials are free to use for anyone who wants to learn more about publication packages, research data management, and reproducible research. The materials are also shared under a [CC-BY license](LICENSE.md), for others who want to re-use, share or adapt part of the materials in their own courses.
+MARKTEST Welcome to the online materials for the *Prepare your publication package* workshop! This course is offered at the [Erasmus Graduate School of Social Sciences and the Humanities (EGSH)](https://www.eur.nl/en/egsh/){target="_blank"} at [Erasmus University Rotterdam](https://www.eur.nl/){target="_blank"} in the Netherlands. But these online materials are free to use for anyone who wants to learn more about publication packages, research data management, and reproducible research. The materials are also shared under a [CC-BY license](LICENSE.md), for others who want to re-use, share or adapt part of the materials in their own courses.
 
 ::: questions
 -   What is a publication package?
