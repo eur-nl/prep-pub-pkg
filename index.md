@@ -3,7 +3,7 @@ site: sandpaper::sandpaper_site
 bibliography: references.bib
 ---
 
-This is a new lesson built with [The Carpentries Workbench](https://carpentries.github.io/sandpaper-docs){target="_blank"}. (See the following [registration options](https://www.eur.nl/en/egsh/course/prepare-your-publication-package){target="_blank"}).
+This is a new lesson [under construction] built with [The Carpentries Workbench](https://carpentries.github.io/sandpaper-docs){target="_blank"}. (See the following [registration options](https://www.eur.nl/en/egsh/course/prepare-your-publication-package){target="_blank"}).
 
 ## Welcome
 
