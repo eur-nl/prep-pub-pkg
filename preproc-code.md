@@ -9,7 +9,7 @@ exercises: 0
 :::
 
 ::: objectives
--   Include computer code describing the steps taken to process the raw data into analysis data in your publication package
+-   Include preprocessing computer code describing the steps taken to process the raw data into analysis data in your publication package
 -   Consider using tools such as Quarto, R Markdown, or Jupyter notebooks to share code and narrative text in one document
 :::
 
@@ -19,7 +19,7 @@ exercises: 0
 ::: checklist
 #### Steps to take
 
--   You should include computer code (for example Atlas.ti, SPSS/JASP syntax file, MATLAB analysis scripts, R code) describing the steps taken to process the raw data into analysis data. 
+-   You should include preprocessing computer code (for example Atlas.ti, SPSS/JASP syntax file, MATLAB analysis scripts, R code) describing the steps taken to process the raw data into analysis data. 
 This should include brief explanations of the steps in English, for example a brief description of the steps taken in the qualitative analysis of primary research data (themes, domains, taxonomies, components).
 -   There are many ways to include computer code in your publication package, depending on the analysis tools you use. 
 Tools like [Quarto](https://quarto.org/){target="_blank"}, [R markdown](https://rmarkdown.rstudio.com/){target="_blank"}, or [Jupyter notebooks](https://jupyter.org/){target="_blank"} are a great way to share code and narrative text in one document. 
