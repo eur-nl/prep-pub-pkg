@@ -20,10 +20,13 @@ exercises: 0
 #### Steps to take
 
 -   You need to provide the data files that were eventually analysed when preparing the article.
-Examples  are the data file after transforming variables and after applying selections. 
+Examples are the data file after transforming variables and after applying selections. 
 This means that in this step you should provide the outcome file from the two previous steps: the result of the preprocessing of the raw data.
 -   If the raw data file was directly analysed, you do not need to provide any extra files in this step.
 -   Make sure all files are saved in a [sustainable file format](https://dans.knaw.nl/en/file-formats/){target="_blank"} such as .csv, and that the files are [properly named](https://doi.org/10.5281/zenodo.7551576){target="_blank"}). Save the files in the `data` folder.
+-   In the case that you are working with qualitative data such as transcripts, please note that given the richness of detail in qualitative interview data, it should not be considered anonymised but rather, pseudonymised. Because qualitative data often is contextual, you can’t promise to remove the indirect identifiers. When it comes to sharing this type of data, one option would be to ask your participants if you can share (parts of) the pseudonomised transcripts. Alternatively, you can consider sharing the data in a more redacted / summarised form. Here are some useful links:
+    -   [Making Qualitative Data Reusable](https://zenodo.org/records/8319060) by DANS
+    -   [Sharing qualitative research data and materials](https://zenodo.org/records/7774044) by the EUR data stewards
 
 :::
 

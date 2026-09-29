@@ -67,7 +67,7 @@ Keep in mind the following considerations in the checklist for the possibility o
 
     -   Note that the full application might contain identifiable information about specific data collection sites (e.g. names of organisations or schools), which make it possible to identify research participants based on other information in the data. In that case, you should not publish the ethics application. In other cases, it might be informative for others to learn about the ethical considerations in your research.
 
--   **Materials used**
+-   **Materials**
 
     -   These contain key information about your research project, and therefore in principle deserve publication.
 
@@ -75,9 +75,12 @@ Keep in mind the following considerations in the checklist for the possibility o
 
 -   **Raw and processed data files**
 
-    -   Keep the GDPR and other regulations in mind, and make sure you only publish an anonymized version of the data files.
+    -   Keep the GDPR and other regulations in mind, and make sure you only publish an anonymized version of the data files. 
+
+    -   For qualtiative data, where direct identifiers can't be removed, sharing the data in a redacted / summarised form is often adviced. If you have consent from your participants you can also consider sharing (parts of) the psudonomised transcripts. 
 
     -   In case anonymization makes the data useless for verification or re-use, you can choose to make it available under restricted access conditions. Make sure that when you do this, the consent given by the research participants allows for distribution outside your research team. For more information about data access restrictions and protocols, this [guidebook by DANS](https://doi.org/10.5281/zenodo.10887484){target="_blank"} offers excellent advice.
+
 
 -   **Preprocessing and analysis computer code**
 

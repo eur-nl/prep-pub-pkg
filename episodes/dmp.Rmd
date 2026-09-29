@@ -6,7 +6,7 @@ exercises: 0
 
 ![[Infographic](https://doi.org/10.5281/zenodo.7575566) snippet: Provide a copy of the most recent version of your data management plan](fig/07_data-mgmt-plan.png){width="500" alt="Data management plan. Provide a copy of the most recent version of your data management plan"}
 
-The first component that we will add to the package is number 7 in our [list of publication package components](introduction.Rmd##the-contents-of-a-publication-package): the data management plan.
+The first component that we will add to the package in our [list of publication package components](introduction.Rmd##the-contents-of-a-publication-package) is the data management plan.
 
 ::: checklist
 #### Steps to take

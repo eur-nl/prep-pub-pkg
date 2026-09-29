@@ -19,7 +19,11 @@ exercises: 0
 ::: checklist
 #### Steps to take
 
--   You should provide the documents related to the ethical approval. Think of the approval letter from the ethical committee, a blank consent form, and the ethics application text for your project.
+-   You should provide the documents related to the ethical approval. This includes:
+    -   Approval letter from the ethical committee
+    -   Blank consent form(s)
+    -   Ethics application text for your project
+    -   Etc.
 -   Make sure the files are saved in a [sustainable file format](https://dans.knaw.nl/en/file-formats/){target="_blank"}. This can be a .pdf or .odt file.
 -   Provide the documents with a good file name (use the [three principles for file naming described in this presentation](https://doi.org/10.5281/zenodo.7551576){target="_blank"}) and save it in the `documentation` folder.
 
