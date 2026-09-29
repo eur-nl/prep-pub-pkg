@@ -19,7 +19,7 @@ exercises: 1
 ::: checklist
 #### Steps to take
 
--   You should include computer code (for example syntax files from SPSS/JASP, Atlas.ti, Matlab, R; syntaxes of tailored software) describing the steps taken to process the analysis data into results in the manuscript. 
+-   You should include analysis computer code (for example syntax files from SPSS/JASP, Matlab, R, codebook/project file from Atlas.ti; syntaxes of tailored software) describing the steps taken to process the analysis data into results in the manuscript. 
 This should include brief explanations of the steps in English.
 -   Just as with the preprocessing computer code, for the analysis code it is very helpful to use tools like [Quarto](https://quarto.org/){target="_blank"}, [R markdown](https://rmarkdown.rstudio.com/){target="_blank"}, or [Jupyter notebooks](https://jupyter.org/){target="_blank"}. 
 -   Again, it is highly recommended to have your preprocessing and analysis code checked for reproducibility by others, or at the least check guidelines from initiatives such as [ReproHack](https://www.reprohack.org/){target="_blank"} or [CODECHECK](https://codecheck.org.uk/){target="_blank"}. 

@@ -1,5 +1,5 @@
 ---
-title: 'Materials used'
+title: 'Materials'
 teaching: 5
 exercises: 0
 ---
@@ -16,9 +16,9 @@ exercises: 0
 :::
 
 
-![[Infographic](https://doi.org/10.5281/zenodo.7575566) snippet: Include instructions, procedures, the design of the experiment and stimulus materials (interview guide, questionnaires, surveys, tests) necessary to replicate the research](fig/02_materials.png){width="500" alt="Include instructions, procedures, the design of the experiment and stimulus materials (interview guide, questionnaires, surveys, tests) necessary to replicate the research"}
+![[Infographic](https://doi.org/10.5281/zenodo.7575566) snippet: Include instructions, procedures, the design of the experiment and stimulus materials (interview guide/topic list, codebook, questionnaires, surveys, tests) necessary to replicate the research](fig/02_materials.png){width="500" alt="Include instructions, procedures, the design of the experiment and stimulus materials (interview guide, questionnaires, surveys, tests) necessary to replicate the research"}
 
-In this step you need to include instructions, procedures, the design of the experiment and stimulus materials (interview guide, questionnaires, surveys, tests) necessary to replicate the research.
+In this step you need to include instructions, procedures, the design of the experiment and stimulus materials (interview guide/topic list, codebook, questionnaires, surveys, tests) necessary to replicate the research.
 
 ::: checklist
 #### Steps to take

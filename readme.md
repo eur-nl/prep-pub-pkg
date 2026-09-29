@@ -29,6 +29,7 @@ exercises: 1
     -   If relevant: addresses of field locations where data were collected and contact persons (if any)
     -   Whether or not an ethical assessment took place before the research, and, if relevant, study reference from and statements made by the Ethics Review Committee
     -   Whether the data is made open or not and if not, a valid reason for not opening up the data
+    -   _If you are using software to process, collect and/or analyse the data, we suggest also listing the software used, including the version number of this software_
 -   Make sure you make the readme file in plain text, using a text editor, like Notepad/TextEdit/Vim, **not** Word (save as .txt). Alternatively, if you feel comfortable with Markdown, you can use the Markdown format (.md)
 
 :::

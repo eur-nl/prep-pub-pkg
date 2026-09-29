@@ -84,8 +84,8 @@ In the infographic above, the contents of a publication package as described in 
 ::: checklist
 1.  **Manuscript or publication**
     -   Must include a brief description of the problem definition, research design, data collection (sampling, selection and representativeness of informants) and methods used
-2.  **Materials used**
-    -   Include instructions, procedures, the design of the experiment and stimulus materials (interview guide, questionnaires, surveys, tests) necessary to replicate the research
+2.  **Materials**
+    -   Include instructions, procedures, the design of the experiment and stimulus materials (interview guide/topic list, codebook, questionnaires, surveys, tests) necessary to replicate the research
 3.  **Raw data files**
     -   Provide the most direct registration of behaviour or reactions of participants. Think of unfiltered export files of surveys, EEG measurements, recordings or transcripts. If needed, include all de-identification steps taken
 4.  **Preprocessing computer code**
