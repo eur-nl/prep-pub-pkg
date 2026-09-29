@@ -321,7 +321,7 @@
 <div class="accordion accordion-flush" id="accordionFlush9">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading9">
-        <a href="materials.html">8. Materials used</a>
+        <a href="materials.html">8. Materials</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -646,11 +646,11 @@ informants) and methods used</li>
 </ul>
 </li>
 <li>
-<strong>Materials used</strong>
+<strong>Materials</strong>
 <ul>
 <li>Include instructions, procedures, the design of the experiment and
-stimulus materials (interview guide, questionnaires, surveys, tests)
-necessary to replicate the research</li>
+stimulus materials (interview guide/topic list, codebook,
+questionnaires, surveys, tests) necessary to replicate the research</li>
 </ul>
 </li>
 <li>
@@ -941,9 +941,8 @@ any links that you are not going to use.
 <a href="https://doi.org/10.5281/zenodo.7575566" class="external-link">Infographic</a> snippet:
 Provide a copy of the most recent version of your data management
 plan</div>
-</figure><p>The first component that we will add to the package is number 7 in
-our <a href="introduction.html##the-contents-of-a-publication-package">list of
-publication package components</a>: the data management plan.</p>
+</figure><p>The first component that we will add to the package in our <a href="introduction.html##the-contents-of-a-publication-package">list of
+publication package components</a> is the data management plan.</p>
 <div id="steps-to-take" class="callout checklist">
 <div class="callout-square">
 <i class="callout-icon" data-feather="check-square"></i>
@@ -1147,6 +1146,9 @@ and, if relevant, study reference from and statements made by the Ethics
 Review Committee</li>
 <li>Whether the data is made open or not and if not, a valid reason for
 not opening up the data</li>
+<li><em>If you are using software to process, collect and/or analyse the
+data, we suggest also listing the software used, including the version
+number of this software</em></li>
 </ul>
 </li>
 <li>Make sure you make the readme file in plain text, using a text
@@ -1261,8 +1263,14 @@ consent form)</div>
 <div class="callout-content">
 <ul>
 <li>You should provide the documents related to the ethical approval.
-Think of the approval letter from the ethical committee, a blank consent
-form, and the ethics application text for your project.</li>
+This includes:
+<ul>
+<li>Approval letter from the ethical committee</li>
+<li>Blank consent form(s)</li>
+<li>Ethics application text for your project</li>
+<li>Etc.</li>
+</ul>
+</li>
 <li>Make sure the files are saved in a <a href="https://dans.knaw.nl/en/file-formats/" target="_blank" class="external-link">sustainable
 file format</a>. This can be a .pdf or .odt file.</li>
 <li>Provide the documents with a good file name (use the <a href="https://doi.org/10.5281/zenodo.7551576" target="_blank" class="external-link">three
@@ -1372,7 +1380,7 @@ formats</li>
 </ul>
 </div>
 </div>
-</div></section><section id="aio-materials"><p>Content from <a href="materials.html">Materials used</a></p>
+</div></section><section id="aio-materials"><p>Content from <a href="materials.html">Materials</a></p>
 <hr>
 <p>Last updated on 2026-09-29 |
 
@@ -1413,11 +1421,13 @@ materials in your publication package</li>
 <figure><img src="../fig/02_materials.png" width="500" alt="Include instructions, procedures, the design of the experiment and stimulus materials (interview guide, questionnaires, surveys, tests) necessary to replicate the research" class="figure mx-auto d-block"><div class="figcaption">
 <a href="https://doi.org/10.5281/zenodo.7575566" class="external-link">Infographic</a> snippet:
 Include instructions, procedures, the design of the experiment and
-stimulus materials (interview guide, questionnaires, surveys, tests)
-necessary to replicate the research</div>
+stimulus materials (interview guide/topic list, codebook,
+questionnaires, surveys, tests) necessary to replicate the
+research</div>
 </figure><p>In this step you need to include instructions, procedures, the design
-of the experiment and stimulus materials (interview guide,
-questionnaires, surveys, tests) necessary to replicate the research.</p>
+of the experiment and stimulus materials (interview guide/topic list,
+codebook, questionnaires, surveys, tests) necessary to replicate the
+research.</p>
 <div id="steps-to-take" class="callout checklist">
 <div class="callout-square">
 <i class="callout-icon" data-feather="check-square"></i>
@@ -1558,12 +1568,14 @@ using source or media material</li>
 </ul>
 </li>
 <li>In case you de-identified the data, you also need to include
-documentation of the steps taken to de-identify the data. Note that only
-personal data such as contact details or other variables not needed for
-the actual research should be removed for de-identification. All
+documentation of the steps taken to de-identify the data. <em>Note that
+only personal data such as contact details or other variables not needed
+for the actual research should be removed for de-identification. All
 personal data that is part of the research data should be retained in
 the publication package for archiving (later you should of course remove
-identifiers before publication of the data in a public repository).</li>
+identifiers before publication of the data in a public
+repository).</em>
+</li>
 </ul>
 </li>
 <li>If the raw data files have been accessibly stored in an external
@@ -1573,6 +1585,13 @@ this archive will suffice.</li>
 file format</a> such as .csv, and that the files and variables are <a href="https://doi.org/10.5281/zenodo.7551576" target="_blank" class="external-link">properly
 named</a>) and clearly described. Save the files in the
 <code>data</code> folder.</li>
+<li><em>Note that only personal data such as contact details should be
+destroyed. We advise not to destroy any raw data if there is no pressing
+need. If you, for example, are conducting interviews, we also advise
+keeping copies of the audio recordings. According to the EUR RDM policy,
+all project data should be stored internally at EUR for a minimum period
+of 10 years. This will allow you to go back to the actual raw data if
+needed</em></li>
 </ul>
 </div>
 </div>
@@ -1678,6 +1697,8 @@ This should include brief explanations of the steps in English, for
 example a brief description of the steps taken in the qualitative
 analysis of primary research data (themes, domains, taxonomies,
 components).</li>
+<li>If you are re-using code/syntax, or importing code to Atlast.ti,
+please link to where the original file can be found.</li>
 <li>There are many ways to include computer code in your publication
 package, depending on the analysis tools you use. Tools like <a href="https://quarto.org/" target="_blank" class="external-link">Quarto</a>, <a href="https://rmarkdown.rstudio.com/" target="_blank" class="external-link">R markdown</a>, or
 <a href="https://jupyter.org/" target="_blank" class="external-link">Jupyter notebooks</a> are
@@ -1712,7 +1733,9 @@ below:</p>
 <embed src="files/preprocessing_safi.html" style="width:80.0%" height="600"></embed><div class="figcaption">Figure: Rendered html file for the preprocessing
 code from the EUR publication package example</div>
 </div>
-<p>Other examples you can think of:</p>
+<div class="section level3">
+<h3 id="other-examples-you-can-think-of">Other examples you can think of:<a class="anchor" aria-label="anchor" href="#other-examples-you-can-think-of"></a>
+</h3>
 <ul>
 <li>
 <p>Descriptions of steps taken to process qualitative data.</p>
@@ -1725,6 +1748,7 @@ transcripts</a> (in Dutch).</li>
 </ul>
 </li>
 </ul>
+</div>
 </div>
 </div>
 </div></section><section id="aio-processed-data"><p>Content from <a href="processed-data.html">Processed data files</a></p>
@@ -1788,6 +1812,24 @@ provide any extra files in this step.</li>
 <li>Make sure all files are saved in a <a href="https://dans.knaw.nl/en/file-formats/" target="_blank" class="external-link">sustainable
 file format</a> such as .csv, and that the files are <a href="https://doi.org/10.5281/zenodo.7551576" target="_blank" class="external-link">properly
 named</a>). Save the files in the <code>data</code> folder.</li>
+<li>In the case that you are working with qualitative data such as
+transcripts, please note that given the richness of detail in
+qualitative interview data, it should not be considered anonymised but
+rather, pseudonymised. Because qualitative data often is contextual, you
+can’t promise to remove the indirect identifiers. When it comes to
+sharing this type of data, one option would be to ask your participants
+if you can share (parts of) the pseudonomised transcripts.
+Alternatively, you can consider sharing the data in a more redacted /
+summarised form. Here are some useful links:
+<ul>
+<li>
+<a href="https://zenodo.org/records/8319060" class="external-link">Making Qualitative Data
+Reusable</a> by DANS</li>
+<li>
+<a href="https://zenodo.org/records/7774044" class="external-link">Sharing qualitative
+research data and materials</a> by the EUR data stewards</li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
@@ -1860,11 +1902,11 @@ explanations of the steps in English</div>
 <h3 class="callout-title">Steps to take</h3>
 <div class="callout-content">
 <ul>
-<li>You should include computer code (for example syntax files from
-SPSS/JASP, Atlas.ti, Matlab, R; syntaxes of tailored software)
-describing the steps taken to process the analysis data into results in
-the manuscript. This should include brief explanations of the steps in
-English.</li>
+<li>You should include analysis computer code (for example syntax files
+from SPSS/JASP, Matlab, R, codebook/project file from Atlas.ti; syntaxes
+of tailored software) describing the steps taken to process the analysis
+data into results in the manuscript. This should include brief
+explanations of the steps in English.</li>
 <li>Just as with the preprocessing computer code, for the analysis code
 it is very helpful to use tools like <a href="https://quarto.org/" target="_blank" class="external-link">Quarto</a>, <a href="https://rmarkdown.rstudio.com/" target="_blank" class="external-link">R markdown</a>, or <a href="https://jupyter.org/" target="_blank" class="external-link">Jupyter notebooks</a>.</li>
 <li>Again, it is highly recommended to have your preprocessing and
@@ -2112,7 +2154,7 @@ research.</p></li>
 </ul>
 </li>
 <li>
-<p><strong>Materials used</strong></p>
+<p><strong>Materials</strong></p>
 <ul>
 <li><p>These contain key information about your research project, and
 therefore in principle deserve publication.</p></li>
@@ -2127,6 +2169,10 @@ materials are available for others.</p></li>
 <ul>
 <li><p>Keep the GDPR and other regulations in mind, and make sure you
 only publish an anonymized version of the data files.</p></li>
+<li><p>For qualtiative data, where direct identifiers can’t be removed,
+sharing the data in a redacted / summarised form is often adviced. If
+you have consent from your participants you can also consider sharing
+(parts of) the psudonomised transcripts.</p></li>
 <li><p>In case anonymization makes the data useless for verification or
 re-use, you can choose to make it available under restricted access
 conditions. Make sure that when you do this, the consent given by the
