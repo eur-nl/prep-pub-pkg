@@ -40,7 +40,10 @@
   <div class="container-fluid top-nav-container">
     <div class="col-md-8">
       <div class="large-logo">
-        <img id="incubator-logo" alt="Carpentries Incubator" src="assets/images/incubator-logo.svg"><span class="badge text-bg-warning">
+        <a href="index.html">
+        <img id="incubator-logo" alt="Carpentries Incubator" src="assets/images/incubator-logo.svg"></a>
+
+        <span class="badge text-bg-warning">
           <abbr title="This lesson is in the alpha phase, which means that it has been taught once and lesson authors are iterating on feedback.">
             <a href="https://docs.carpentries.org/resources/curriculum/lesson-life-cycle.html" class="external-link alert-link">
               <i aria-hidden="true" class="icon" data-feather="alert-triangle" style="border-radius: 5px"></i>
@@ -96,8 +99,9 @@
       <span class="menu-title">Menu</span>
     </button>
     <div class="nav-logo">
-      <img class="small-logo" alt="Carpentries Incubator" src="assets/images/incubator-logo-sm.svg">
-</div>
+      <a href="index.html">
+      <img class="small-logo" alt="Carpentries Incubator" src="assets/images/incubator-logo-sm.svg"></a>
+    </div>
     <div class="lesson-title-md">
       Prepare your publication package
     </div>
@@ -142,7 +146,7 @@
       </fieldset>
     </form>
     -->
-    <a id="search-button" class="btn btn-primary" href="aio.html" role="button" aria-label="Search the All In One page">Search the All In One page</a>
+    <a id="search-button-nav" class="btn btn-primary" href="aio.html" role="button" aria-label="Search the All In One page">Search the All In One page</a>
   </div>
 <!--/div.container-fluid -->
 </nav><div class="container">
@@ -154,6 +158,9 @@
           <i class="search-icon" data-feather="x" role="img"></i>
         </button>
         <div class="sidebar-inner">
+          <div class="row mobile-row" id="theme-row-mobile">
+            <a id="search-button-sidebar" class="btn btn-primary" href="aio.html" role="button" aria-label="Search the All In One page">Search the All In One page</a>
+          </div>
           <div class="row mobile-row" id="theme-row-mobile">
             <menu class="col theme-selector" id="theme-selector-sidebar">
 <li class="nav-item dropdown theme-button-list" id="theme-button-list-sidebar">
@@ -202,6 +209,7 @@
 <!--/div.accordion-item-->
                 </div>
 <!--/div.accordion-flush-->
+
               </div>
 <!--div.sidenav-view-selector -->
             </div>
@@ -394,6 +402,34 @@
             </div>
 
             <hr class="half-width">
+<div class="accordion accordion-flush" id="accordion-links-toggle">
+                <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-heading-links-toggle">
+                  <button class="accordion-button collapsed" id="links" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse-links-toggle" aria-expanded="false" aria-controls="flush-collapse-links-toggle">
+                    LINKS
+                  </button>
+                </h2>
+                <div id="flush-collapse-links-toggle" class="accordion-collapse show collapse" data-bs-parent="#accordion-links-toggle">
+                    <div class="accordion-body">
+                        <ul>
+<li>
+                            <a href="key-points.html">Key Points</a>
+                            </li>
+                            <li>
+                            <a href="reference.html#glossary">Glossary</a>
+                            </li>
+                            <li>
+                            <a href="profiles.html">Learner Profiles</a>
+                            </li>
+                        </ul>
+</div>
+                </div>
+                </div>
+<!--/div.accordion-item-->
+            </div>
+<!--/div.accordion-flush-->
+
+            <hr class="half-width">
 <div class="accordion accordion-flush lesson-resources" id="accordion-resources-toggle">
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-heading-resources-toggle">
@@ -404,16 +440,7 @@
                 <div id="flush-collapse-resources-toggle" class="accordion-collapse collapse" data-bs-parent="#accordion-resources-toggle">
                   <div class="accordion-body">
                     <ul>
-<li>
-                        <a href="key-points.html">Key Points</a>
-                      </li>
-                      <li>
-                        <a href="reference.html#glossary">Glossary</a>
-                      </li>
-                      <li>
-                        <a href="profiles.html">Learner Profiles</a>
-                      </li>
-                      <li><a href="reference.html">Reference</a></li>
+<li><a href="reference.html">Reference</a></li>
                     </ul>
 </div>
                 </div>
@@ -445,7 +472,7 @@
         
 <section id="aio-introduction"><p>Content from <a href="introduction.html">Introduction</a></p>
 <hr>
-<p>Last updated on 2026-09-29 |
+<p>Last updated on 2026-10-06 |
 
         <a href="https://github.com/eur-nl/prep-pub-pkg/edit/main/episodes/introduction.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -718,6 +745,9 @@ on the setup page</a>) provides examples for all of the components.
 Additionally, in most cases you will hopefully have some components
 ready at hand (e.g., a data management plan) and you can immediately add
 it to your draft publication package.</p>
+<p><em>Disclaimer: the EUR publication package does not include any
+qualitative data, but there are qualitative examples given throughout
+the course.</em></p>
 <div id="publication-packages-and-related-terms" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
@@ -820,7 +850,7 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-prep-pkg-docs"><p>Content from <a href="prep-pkg-docs.html">Prepare your package - I. Documentation</a></p>
 <hr>
-<p>Last updated on 2026-09-29 |
+<p>Last updated on 2026-10-06 |
 
         <a href="https://github.com/eur-nl/prep-pub-pkg/edit/main/episodes/prep-pkg-docs.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -913,7 +943,7 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-dmp"><p>Content from <a href="dmp.html">Data management plan</a></p>
 <hr>
-<p>Last updated on 2026-09-29 |
+<p>Last updated on 2026-10-06 |
 
         <a href="https://github.com/eur-nl/prep-pub-pkg/edit/main/episodes/dmp.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -968,7 +998,7 @@ publication package example</div>
 </div>
 </div></section><section id="aio-manuscript"><p>Content from <a href="manuscript.html">Manuscript or publication</a></p>
 <hr>
-<p>Last updated on 2026-09-29 |
+<p>Last updated on 2026-10-06 |
 
         <a href="https://github.com/eur-nl/prep-pub-pkg/edit/main/episodes/manuscript.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1058,7 +1088,7 @@ package example</div>
 </div>
 </div></section><section id="aio-readme"><p>Content from <a href="readme.html">Readme file</a></p>
 <hr>
-<p>Last updated on 2026-09-29 |
+<p>Last updated on 2026-10-06 |
 
         <a href="https://github.com/eur-nl/prep-pub-pkg/edit/main/episodes/readme.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1193,7 +1223,7 @@ possible?</p></li>
 </div>
 </div></section><section id="aio-ethics"><p>Content from <a href="ethics.html">Ethics documentation</a></p>
 <hr>
-<p>Last updated on 2026-09-29 |
+<p>Last updated on 2026-10-06 |
 
         <a href="https://github.com/eur-nl/prep-pub-pkg/edit/main/episodes/ethics.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1247,6 +1277,7 @@ This includes:
 <li>Approval letter from the ethical committee</li>
 <li>Blank consent form(s)</li>
 <li>Ethics application text for your project</li>
+<li>Agreements</li>
 <li>Etc.</li>
 </ul>
 </li>
@@ -1299,7 +1330,7 @@ formats</li>
 </div>
 </div></section><section id="aio-prep-pkg-data"><p>Content from <a href="prep-pkg-data.html">Prepare your package - II. Materials, data, code</a></p>
 <hr>
-<p>Last updated on 2026-09-29 |
+<p>Last updated on 2026-10-06 |
 
         <a href="https://github.com/eur-nl/prep-pub-pkg/edit/main/episodes/prep-pkg-data.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1360,7 +1391,7 @@ formats</li>
 </div>
 </div></section><section id="aio-materials"><p>Content from <a href="materials.html">Materials</a></p>
 <hr>
-<p>Last updated on 2026-09-29 |
+<p>Last updated on 2026-10-06 |
 
         <a href="https://github.com/eur-nl/prep-pub-pkg/edit/main/episodes/materials.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1474,7 +1505,7 @@ Open Science Framework.</li>
 </div>
 </div></section><section id="aio-raw-data"><p>Content from <a href="raw-data.html">Raw data files</a></p>
 <hr>
-<p>Last updated on 2026-09-29 |
+<p>Last updated on 2026-10-06 |
 
         <a href="https://github.com/eur-nl/prep-pub-pkg/edit/main/episodes/raw-data.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1537,21 +1568,14 @@ measurement, e-dat files for an E-Prime behaviour experiment)</li>
 <li>Survey data from questionnaires completed within the framework of
 research (including longitudinal research), collected by the researcher
 themselves or by an external fieldwork organization</li>
-<li>(Transcripts of) video material collected within the framework of
-qualitative research (open interviews, observations)</li>
+<li>(Transcripts of) video/audio material collected within the framework
+of qualitative research (open interviews, observations)</li>
 <li>Notes taken within the framework of qualitative research or research
 using source or media material</li>
 </ul>
 </li>
 <li>In case you de-identified the data, you also need to include
-documentation of the steps taken to de-identify the data. <em>Note that
-only personal data such as contact details or other variables not needed
-for the actual research should be removed for de-identification. All
-personal data that is part of the research data should be retained in
-the publication package for archiving (later you should of course remove
-identifiers before publication of the data in a public
-repository).</em>
-</li>
+documentation of the steps taken to de-identify the data.</li>
 </ul>
 </li>
 <li>If the raw data files have been accessibly stored in an external
@@ -1560,15 +1584,17 @@ this archive will suffice.</li>
 <li>Make sure all files are saved in a <a href="https://dans.knaw.nl/en/file-formats/" target="_blank" class="external-link">sustainable
 file format</a> such as .csv, and that the files and variables are <a href="https://doi.org/10.5281/zenodo.7551576" target="_blank" class="external-link">properly
 named</a>) and clearly described. Save the files in the
-<code>data</code> folder.</li>
-<li><em>Note that only personal data such as contact details should be
+<code>data</code> folder. In the case that recordings (.mp4/.mp3 files)
+will mostly serve as a backup for the transcripts, then the .mp4/.mp3
+format is sufficient.</li>
+</ul>
+<p><em>Note that only personal data such as contact details should be
 destroyed. We advise not to destroy any raw data if there is no pressing
 need. If you, for example, are conducting interviews, we also advise
-keeping copies of the audio recordings. According to the EUR RDM policy,
-all project data should be stored internally at EUR for a minimum period
-of 10 years. This will allow you to go back to the actual raw data if
-needed</em></li>
-</ul>
+keeping copies of the audio recordings (see above). According to the EUR
+RDM policy, all project data should be stored internally at EUR for a
+minimum period of 10 years. This will allow you to go back to the actual
+raw data if needed.</em></p>
 </div>
 </div>
 </div>
@@ -1616,7 +1642,7 @@ as possible?</p></li>
 </div>
 </div></section><section id="aio-preproc-code"><p>Content from <a href="preproc-code.html">Preprocessing computer code</a></p>
 <hr>
-<p>Last updated on 2026-09-29 |
+<p>Last updated on 2026-10-06 |
 
         <a href="https://github.com/eur-nl/prep-pub-pkg/edit/main/episodes/preproc-code.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1671,7 +1697,7 @@ describing the steps taken to process the raw data into analysis data.
 This should include brief explanations of the steps in English, for
 example a brief description of the steps taken in the qualitative
 analysis of primary research data (themes, domains, taxonomies,
-components).</li>
+components). This also includes code used to de-identify the data.</li>
 <li>If you are re-using code/syntax, or importing code to Atlast.ti,
 please link to where the original file can be found.</li>
 <li>There are many ways to include computer code in your publication
@@ -1697,6 +1723,9 @@ documentation of your code is key!</li>
 <div id="example-files" class="callout-inner">
 <h3 class="callout-title">Example files</h3>
 <div class="callout-content">
+<div class="section level5">
+<h5 id="eur-publication-package-example">EUR publication package example<a class="anchor" aria-label="anchor" href="#eur-publication-package-example"></a>
+</h5>
 <p>See the <code>preprocessing_safi.qmd</code> and
 <code>preprocessing_safi.html</code> file in the <code>scripts</code>
 folder from the <a href="https://doi.org/10.5281/zenodo.7956600" target="_blank" class="external-link">EUR publication package example repository on
@@ -1708,9 +1737,10 @@ below:</p>
 <embed src="files/preprocessing_safi.html" style="width:80.0%" height="600"></embed><div class="figcaption">Figure: Rendered html file for the preprocessing
 code from the EUR publication package example</div>
 </div>
-<div class="section level3">
-<h3 id="other-examples-you-can-think-of">Other examples you can think of:<a class="anchor" aria-label="anchor" href="#other-examples-you-can-think-of"></a>
-</h3>
+</div>
+<div class="section level5">
+<h5 id="other-examples">Other examples:<a class="anchor" aria-label="anchor" href="#other-examples"></a>
+</h5>
 <ul>
 <li>
 <p>Descriptions of steps taken to process qualitative data.</p>
@@ -1724,11 +1754,31 @@ transcripts</a> (in Dutch).</li>
 </li>
 </ul>
 </div>
+<div class="section level4">
+<h4 id="useful-links">Useful links<a class="anchor" aria-label="anchor" href="#useful-links"></a>
+</h4>
+<ul>
+<li>
+<a href="https://zenodo.org/records/19049721" class="external-link">De-identification of
+qualitative</a> data by the EUR data stewards</li>
+<li>
+<a href="https://zenodo.org/records/11269636" class="external-link">Anonymisation of
+quantiative data</a> bye the EUR data stewards</li>
+<li>
+<a href="https://www.fsd.tuni.fi/en/news/articles/anonymising-qualitative-data/" class="external-link">Anonymisation
+of Qualitative Data</a> by the Finnish Social Science Data Archive</li>
+<li>
+<a href="https://my.eur.nl/en/rsp-employee/services/anonymising-your-research-data" class="external-link">Anonymising
+your research data</a> on the Research Support Portal pages</li>
+<li><a href="https://www.qualtrics.com/support/survey-platform/survey-module/survey-options/survey-protection/#AnonymizingResponses" class="external-link">Qualtrics
+settings for anonymizing responses</a></li>
+</ul>
+</div>
 </div>
 </div>
 </div></section><section id="aio-processed-data"><p>Content from <a href="processed-data.html">Processed data files</a></p>
 <hr>
-<p>Last updated on 2026-09-29 |
+<p>Last updated on 2026-10-06 |
 
         <a href="https://github.com/eur-nl/prep-pub-pkg/edit/main/episodes/processed-data.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1794,16 +1844,7 @@ can’t promise to remove the indirect identifiers. When it comes to
 sharing this type of data, one option would be to ask your participants
 if you can share (parts of) the pseudonomised transcripts.
 Alternatively, you can consider sharing the data in a more redacted /
-summarised form. Here are some useful links:
-<ul>
-<li>
-<a href="https://zenodo.org/records/8319060" class="external-link">Making Qualitative Data
-Reusable</a> by DANS</li>
-<li>
-<a href="https://zenodo.org/records/7774044" class="external-link">Sharing qualitative
-research data and materials</a> by the EUR data stewards</li>
-</ul>
-</li>
+summarised form. See below for some useful links.</li>
 </ul>
 </div>
 </div>
@@ -1816,17 +1857,43 @@ research data and materials</a> by the EUR data stewards</li>
 <div id="example-file" class="callout-inner">
 <h3 class="callout-title">Example file</h3>
 <div class="callout-content">
+<div class="section level5">
+<h5 id="eur-prublication-package-example">EUR prublication package example<a class="anchor" aria-label="anchor" href="#eur-prublication-package-example"></a>
+</h5>
 <p>See the <code>safi_processed-for-plotting.csv</code> file in the
 <code>data_output</code> folder from the <a href="https://doi.org/10.5281/zenodo.7956600" target="_blank" class="external-link">EUR
 publication package example repository on Zenodo</a>:</p>
-<figure><img src="fig/05_processed-data-example.png" style="width:80.0%" alt="Processed data from the EUR publication package example" class="figure mx-auto d-block"><div class="figcaption">Figure: Processed data from the EUR publication
-package example</div>
-</figure>
+<p><img src="fig/05_processed-data-example.png" style="width:80.0%" alt="Processed data from the EUR publication package example" class="figure"> #####
+Other examples</p>
+<ul>
+<li>
+<p>Summary of interviews</p>
+<ul>
+<li>
+<a href="https://zenodo.org/records/17751189" class="external-link">Hazejager (2025)</a>
+shared a summary of the interviews as supplement to the <a href="https://zenodo.org/records/17063070" class="external-link">RECHARGE - Recommendations
+for Sustainable Collaboration</a> poster on Zeonodo.</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section level3">
+<h3 id="useful-links">Useful links<a class="anchor" aria-label="anchor" href="#useful-links"></a>
+</h3>
+<ul>
+<li>
+<a href="https://zenodo.org/records/8319060" class="external-link">Making Qualitative Data
+Reusable</a> by DANS</li>
+<li>
+<a href="https://zenodo.org/records/7774044" class="external-link">Sharing qualitative
+research data and materials</a> by the EUR data stewards</li>
+</ul>
+</div>
 </div>
 </div>
 </div></section><section id="aio-analysis-code"><p>Content from <a href="analysis-code.html">Analysis computer code</a></p>
 <hr>
-<p>Last updated on 2026-09-29 |
+<p>Last updated on 2026-10-06 |
 
         <a href="https://github.com/eur-nl/prep-pub-pkg/edit/main/episodes/analysis-code.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -1968,7 +2035,7 @@ formats</li>
 </div>
 </div></section><section id="aio-archive-share-pkg"><p>Content from <a href="archive-share-pkg.html">Prepare your package - III. Archive and share your package</a></p>
 <hr>
-<p>Last updated on 2026-09-29 |
+<p>Last updated on 2026-10-06 |
 
         <a href="https://github.com/eur-nl/prep-pub-pkg/edit/main/episodes/archive-share-pkg.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -2041,7 +2108,7 @@ publication appeared.</p>
 Rotterdam</h3>
 <div class="callout-content">
 <figure><img src="fig/yoda-logo.png" alt="Yoda research data management logo" width="180" height="62" class="figure mx-auto d-block"></figure><p>At Erasmus University Rotterdam you can archive your publication
-package for the long-term in the <a href="https://www.eur.nl/en/research/research-services/research-data-management/surf-yoda/data-archiving" target="_blank" class="external-link">EUR Yoda Vault</a>. The following features make it
+package for the long-term in the <a href="https://my.eur.nl/en/rsp-employee/services/eur-yoda-vault" target="_blank" class="external-link">EUR Yoda Vault</a>. The following features make it
 possible to comply with the guidelines mentioned above:</p>
 <ul>
 <li><p>In <a href="https://www.eur.nl/en/research/research-services/research-data-management/surf-yoda" target="_blank" class="external-link">Yoda</a>, you can submit a folder with your package to
@@ -2070,7 +2137,7 @@ Integrity.</p>
 <p>Keep in mind the following considerations in the checklist for the
 possibility of publishing different components of the publication
 package (see the <a href="https://doi.org/10.5281/zenodo.7575566" target="_blank" class="external-link">infographic</a> for an overview of the components). If
-you are working with qualitative data, this <a href="https://doi.org/10.5281/zenodo.8160880" class="external-link">DANS guidebook</a> offers
+you are working with qualitative data, this <a href="https://doi.org/10.5281/zenodo.8319060" class="external-link">DANS guidebook</a> offers
 great advice on publishing qualitative data and how to make it as
 reusable as possible.</p>
 <div id="checklist1" class="callout checklist">
@@ -2211,11 +2278,11 @@ and reusable (FAIR) as much as possible. In most cases, you previously
 made a selection for a specific repository in your data management
 plan.</p>
 <p>You can for example choose to store your data in a
-discipline-specific repository like <a href="https://dans.knaw.nl/en/data-stations/social-sciences-and-humanities/" target="_blank" class="external-link">DANS Data Station Social Sciences and Humanities</a>,
-the institutional repository of the EUR (the <a href="https://www.eur.nl/en/library/research-support/eur-data-repository" target="_blank" class="external-link">EUR data repository</a>), or the <a href="https://osf.io/institutions/eur/" class="external-link">Open Science Framework</a>. Make
-sure you follow existing guidelines of the specific repository. At
-minimum, add a proper license, rich documentation and make sure your
-package receive a persistent identifier.</p>
+discipline-specific repository like <a href="https://dans.knaw.nl/en/data-stations/social-sciences-and-humanities/" target="_blank" class="external-link">DANS Data Station Social Sciences and Humanities</a> or
+the institutional repository of the EUR (the <a href="https://www.eur.nl/en/library/research-support/eur-data-repository" target="_blank" class="external-link">EUR data repository</a>). Make sure you follow existing
+guidelines of the specific repository. At minimum, add a proper license,
+rich documentation and make sure your package receive a persistent
+identifier.</p>
 </div>
 </section><section><h2 class="section-heading" id="find-support-for-preparing-and-publishing-a-publication-package">Find support for preparing and publishing a publication package<a class="anchor" aria-label="anchor" href="#find-support-for-preparing-and-publishing-a-publication-package"></a>
 </h2>
@@ -2226,10 +2293,10 @@ Congratulations!</p>
 package and learned about the importance and potential of a publication
 package for your research. Now or in the future, questions may arise
 about your specific publication package that are not answered on these
-pages. In those cases, you can always reach out to your faculty research
-data steward. They will be able to answer your question or connect you
-with the experts needed, such as privacy or legal officers, or data
-librarians.</p>
+pages. In those cases, you can always reach out to your <a href="https://my.eur.nl/en/rsp-employee/data/data-management#:~:text=Checklist-,Contact%20information,-Joanna%20Mania" class="external-link">faculty
+research data steward</a>. They will be able to answer your question or
+connect you with the experts needed, such as privacy or legal officers,
+or data librarians.</p>
 <p>In case you have any feedback regarding the current online materials,
 please contact us. We are happy to keep improving!</p>
 <div id="keypoints1" class="callout keypoints">
@@ -2279,7 +2346,7 @@ any links that you are not going to use.
         <p>Materials licensed under <a href="LICENSE.html">CC-BY 4.0</a> by the authors</p>
 
         <p>Template licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">CC-BY 4.0</a> by <a href="https://carpentries.org/" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/" class="external-link">sandpaper (0.21.0)</a>, <a href="https://github.com/carpentries/pegboard/tree/" class="external-link">pegboard (0.7.9)</a>, and <a href="https://github.com/carpentries/varnish/tree/" class="external-link">varnish (1.1.2)</a></p>
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/" class="external-link">sandpaper (0.21.1)</a>, <a href="https://github.com/carpentries/pegboard/tree/" class="external-link">pegboard (0.7.9)</a>, and <a href="https://github.com/carpentries/varnish/tree/" class="external-link">varnish (1.1.3)</a></p>
 		</div>
 		</footer>
 </div> <!-- / div.container -->
@@ -2302,8 +2369,8 @@ any links that you are not going to use.
   "url": "https://eur-nl.github.io/prep-pub-pkg/aio.html",
   "identifier": "https://eur-nl.github.io/prep-pub-pkg/aio.html",
   "dateCreated": "2024-07-12",
-  "dateModified": "2026-09-29",
-  "datePublished": "2026-09-29"
+  "dateModified": "2026-10-06",
+  "datePublished": "2026-10-06"
 }
 
   </script><script>
