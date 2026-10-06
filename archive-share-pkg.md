@@ -29,7 +29,7 @@ It should also be possible to give other researchers reading rights to the packa
 
 ![](fig/yoda-logo.png){width="180" height="62" alt="Yoda research data management logo"}
 
-At Erasmus University Rotterdam you can archive your publication package for the long-term in the [EUR Yoda Vault](https://www.eur.nl/en/research/research-services/research-data-management/surf-yoda/data-archiving){target="_blank"}. The following features make it possible to comply with the guidelines mentioned above:
+At Erasmus University Rotterdam you can archive your publication package for the long-term in the [EUR Yoda Vault](https://my.eur.nl/en/rsp-employee/services/eur-yoda-vault){target="_blank"}. The following features make it possible to comply with the guidelines mentioned above:
 
 -   In [Yoda](https://www.eur.nl/en/research/research-services/research-data-management/surf-yoda){target="_blank"}, you can submit a folder with your package to the EUR Yoda Vault. Once it is accepted to the Vault, it cannot be altered anymore (only new versions can be submitted if needed).
 
@@ -42,7 +42,7 @@ At Erasmus University Rotterdam you can archive your publication package for the
 
 Archiving your package internally is important. But to make it as easy as possible for others to verify your results, you should also publish most parts of your publication package on a public data repository. This is in line with the [guidelines and policies](introduction.Rmd#guidelines-and-policies){target="_blank"} mentioned in the introduction, such as the Netherlands Code of Conduct for Research Integrity. 
 
-Keep in mind the following considerations in the checklist for the possibility of publishing different components of the publication package (see the [infographic](https://doi.org/10.5281/zenodo.7575566){target="_blank"} for an overview of the components). If you are working with qualitative data, this [DANS guidebook](https://doi.org/10.5281/zenodo.8160880) offers great advice on publishing qualitative data and how to make it as reusable as possible.
+Keep in mind the following considerations in the checklist for the possibility of publishing different components of the publication package (see the [infographic](https://doi.org/10.5281/zenodo.7575566){target="_blank"} for an overview of the components). If you are working with qualitative data, this [DANS guidebook](https://doi.org/10.5281/zenodo.8319060) offers great advice on publishing qualitative data and how to make it as reusable as possible.
 
 ::: checklist
 -   **Data management plan**
@@ -107,13 +107,13 @@ Questions to discuss with your peers:
 
 Once you have made a selection of the components that you plan to publish, you can deposit this public version of the package in a data repository. Data repositories offer organized and structured storage and access of data, ensuring that data sets abide by the [FAIR principles](https://www.go-fair.org/fair-principles/){target="_blank"}, allowing data are findable, accessible, interoperable, and reusable (FAIR) as much as possible. In most cases, you previously made a selection for a specific repository in your data management plan.
 
-You can for example choose to store your data in a discipline-specific repository like [DANS Data Station Social Sciences and Humanities](https://dans.knaw.nl/en/data-stations/social-sciences-and-humanities/){target="_blank"}, the institutional repository of the EUR (the [EUR data repository](https://www.eur.nl/en/library/research-support/eur-data-repository){target="_blank"}), or the [Open Science Framework](https://osf.io/institutions/eur/). Make sure you follow existing guidelines of the specific repository. At minimum, add a proper license, rich documentation and make sure your package receive a persistent identifier.
+You can for example choose to store your data in a discipline-specific repository like [DANS Data Station Social Sciences and Humanities](https://dans.knaw.nl/en/data-stations/social-sciences-and-humanities/){target="_blank"} or the institutional repository of the EUR (the [EUR data repository](https://www.eur.nl/en/library/research-support/eur-data-repository){target="_blank"}). Make sure you follow existing guidelines of the specific repository. At minimum, add a proper license, rich documentation and make sure your package receive a persistent identifier.
 
 ## Find support for preparing and publishing a publication package
 
 By now, you have reached the end of the workshop. Congratulations!
 
-Hopefully you have made a good start with your own publication package and learned about the importance and potential of a publication package for your research. Now or in the future, questions may arise about your specific publication package that are not answered on these pages. In those cases, you can always reach out to your faculty research data steward. They will be able to answer your question or connect you with the experts needed, such as privacy or legal officers, or data librarians.
+Hopefully you have made a good start with your own publication package and learned about the importance and potential of a publication package for your research. Now or in the future, questions may arise about your specific publication package that are not answered on these pages. In those cases, you can always reach out to your [faculty research data steward](https://my.eur.nl/en/rsp-employee/data/data-management#:~:text=Checklist-,Contact%20information,-Joanna%20Mania). They will be able to answer your question or connect you with the experts needed, such as privacy or legal officers, or data librarians.
 
 In case you have any feedback regarding the current online materials, please contact us. We are happy to keep improving!
 

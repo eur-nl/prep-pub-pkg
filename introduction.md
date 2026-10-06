@@ -107,6 +107,8 @@ In the **next part of the workshop**, we will look into the different components
 
 The [EUR publication package example](https://doi.org/10.5281/zenodo.7956600){target="_blank"} that you downloaded to your computer (see [data sets section on the setup page](setup.md#data-sets)) provides examples for all of the components. Additionally, in most cases you will hopefully have some components ready at hand (e.g., a data management plan) and you can immediately add it to your draft publication package.
 
+_Disclaimer: the EUR publication package does not include any qualitative data, but there are qualitative examples given throughout the course._  
+
 ::: callout
 ### Publication packages and related terms
 In this course, we use the term *publication package* following the description in the [Guideline for the archiving of academic research for Faculties of Behavioural and Social Sciences in the Netherlands](https://doi.org/10.5281/zenodo.7583831){target="_blank"}.  

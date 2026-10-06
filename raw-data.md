@@ -27,12 +27,13 @@ If needed, include all de-identification steps taken"}
     -   The raw data files, which are "the unedited data that are collected within the framework of a research project (...) providing the most direct registration of the behaviour or reactions of test subjects/respondents". Examples given:
         -   Registrations derived from experimental research (e.g., unfiltered export file of an online survey or raw time series for an EEG measurement, e-dat files for an E-Prime behaviour experiment)
         -   Survey data from questionnaires completed within the framework of research (including longitudinal research), collected by the researcher themselves or by an external fieldwork organization
-        -   (Transcripts of) video material collected within the framework of qualitative research (open interviews, observations)
+        -   (Transcripts of) video/audio material collected within the framework of qualitative research (open interviews, observations)
         -   Notes taken within the framework of qualitative research or research using source or media material
-    -   In case you de-identified the data, you also need to include documentation of the steps taken to de-identify the data. *Note that only personal data such as contact details or other variables not needed for the actual research should be removed for de-identification. All personal data that is part of the research data should be retained in the publication package for archiving (later you should of course remove identifiers before publication of the data in a public repository).*
+    -   In case you de-identified the data, you also need to include documentation of the steps taken to de-identify the data. 
 -   If the raw data files have been accessibly stored in an external data repository (such as a [DANS](https://dans.knaw.nl/en/){target="_blank"} Data Station), making reference to the files in this archive will suffice.
--   Make sure all files are saved in a [sustainable file format](https://dans.knaw.nl/en/file-formats/){target="_blank"} such as .csv, and that the files and variables are [properly named](https://doi.org/10.5281/zenodo.7551576){target="_blank"}) and clearly described. Save the files in the `data` folder.
--   *Note that only personal data such as contact details should be destroyed. We advise not to destroy any raw data if there is no pressing need. If you, for example, are conducting interviews, we also advise keeping copies of the audio recordings. According to the EUR RDM policy, all project data should be stored internally at EUR for a minimum period of 10 years. This will allow you to go back to the actual raw data if needed* 
+-   Make sure all files are saved in a [sustainable file format](https://dans.knaw.nl/en/file-formats/){target="_blank"} such as .csv, and that the files and variables are [properly named](https://doi.org/10.5281/zenodo.7551576){target="_blank"}) and clearly described. Save the files in the `data` folder. In the case that recordings (.mp4/.mp3 files) will mostly serve as a backup for the transcripts, then the .mp4/.mp3 format is sufficient. 
+
+*Note that only personal data such as contact details should be destroyed. We advise not to destroy any raw data if there is no pressing need. If you, for example, are conducting interviews, we also advise keeping copies of the audio recordings (see above). According to the EUR RDM policy, all project data should be stored internally at EUR for a minimum period of 10 years. This will allow you to go back to the actual raw data if needed.*
 
 :::
 
