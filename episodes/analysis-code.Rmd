@@ -53,7 +53,7 @@ Share a copy of your analysis computer code or syntax with a colleague or with y
 
 -   Bonus question: are they able to rerun your analysis independently?
 
--   Which improvements do they suggest to make the data file as clear as possible?
+-   Which improvements do they suggest to make the code file as clear as possible?
 
 :::
 

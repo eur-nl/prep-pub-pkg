@@ -113,7 +113,7 @@ You can for example choose to store your data in a discipline-specific repositor
 
 By now, you have reached the end of the workshop. Congratulations!
 
-Hopefully you have made a good start with your own publication package and learned about the importance and potential of a publication package for your research. Now or in the future, questions may arise about your specific publication package that are not answered on these pages. In those cases, you can always reach out to your [faculty research data steward](https://my.eur.nl/en/rsp-employee/data/data-management#:~:text=Checklist-,Contact%20information,-Joanna%20Mania). They will be able to answer your question or connect you with the experts needed, such as privacy or legal officers, or data librarians.
+Hopefully you have made a good start with your own publication package and learned about the importance and potential of a publication package for your research. Now or in the future, questions may arise about your specific publication package that are not answered on these pages. In those cases, you can always reach out to your [faculty research data steward](https://my.eur.nl/en/rsp-employee/data/data-management#:~:text=Checklist-,Contact%20information). They will be able to answer your question or connect you with the experts needed, such as privacy or legal officers, or data librarians.
 
 In case you have any feedback regarding the current online materials, please contact us. We are happy to keep improving!
 
