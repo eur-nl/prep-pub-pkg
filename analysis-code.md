@@ -34,7 +34,7 @@ See the `analysis_safi.qmd` and `analysis_safi.html` file in the `scripts` folde
 
 ![Figure: Rendered html file for the preprocessing code from the EUR publication package example](files/analyses_safi.html){width="80%" height="600" alt="Rendered html file for the preprocessing code from the EUR publication package example"}
 
-Other examples you can think of:
+#### Other examples
 
 -   Descriptions of steps taken to analyse qualitative data.
 
