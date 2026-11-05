@@ -37,7 +37,7 @@ See the codebook and the questionnaire in the `materials` folder from the [EUR p
 
 ![Figure: Codebook from the EUR publication package example](fig/02_materials-example-codebook.png){width="900" alt="Codebook from the EUR publication package example"}
 
-Other examples you can think of:
+#### Other examples
 
 -   Protocols for interviews or focus groups.
 
